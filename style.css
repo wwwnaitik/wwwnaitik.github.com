@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+.flex-container {
+  background-color: tomato;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  height: 82%;
+  padding-top: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+nav a:hover {
+  background-color: teal;
+}
+.flex-hero {
+  background-color: teal;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-hero div {
+  text-align: center;
+}
+.flex-hero h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+.flex-hero .tagline {
+  font-size: 17px;
+  color: brown;
+}
+.photos {
+  background-color: #45567d;
+}
+.photos h4 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 900px; */
+  margin: auto;
+  justify-content: space-around;
+}
+.gallery img {
+  width: 400px;
+  margin-bottom: 30px;
+}
+.showall {
+  text-align: center;
+}
+.showall button {
+  background-color: #303841;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #303841;
+  font-weight: bold;
+  width: 150px;
+}
+.showall button:hover {
+  background-color: #be3144;
+}
