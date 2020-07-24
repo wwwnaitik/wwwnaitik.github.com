@@ -39,6 +39,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   opacity: 1;
+  color: #ffffff;
 }
 .flex-hero div {
   text-align: center;
@@ -88,4 +89,41 @@ nav a:hover {
 }
 .showall button:hover {
   background-color: #be3144;
+}
+.last {
+  background-color: #303841;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.written {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  color: wheat;
+}
+.facebook {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  word-spacing: 10px;
+}
+.line {
+  color: #be3144;
+}
+.lasttext {
+  text-align: initial;
+  font-size: 20px;
+  color: #d0d1d2;
+  display: flex;
+  justify-content: space-between;
+}
+.lastsentence {
+  text-align: right;
+  font-size: 20px;
+  color: #d0d1d2;
+}
+.tag {
+  text-align: center;
+  color: #d1d2d4;
 }
