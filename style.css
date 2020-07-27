@@ -91,7 +91,7 @@ nav a:hover {
   background-color: #be3144;
 }
 .last {
-  background-color: #303841;
+  background-color: #24292e;
   height: 400px;
   justify-content: center;
   align-items: center;
@@ -107,6 +107,7 @@ nav a:hover {
   font-size: 25px;
   text-align: center;
   word-spacing: 10px;
+  transition: ;
 }
 .line {
   color: #be3144;
@@ -126,4 +127,13 @@ nav a:hover {
 .tag {
   text-align: center;
   color: #d1d2d4;
+}
+.facebook div {
+  transition: width 2s, height 4s;
+}
+.facebook div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
 }
