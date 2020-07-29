@@ -20,7 +20,7 @@
             <div>
               <div class="label">Name</div>
               <div class="form-field">
-                <input type="text" name="Name" /><br/><br/>
+                <input type="text" name="Name" placeholder="Enter your name" /><br/><br/>
               </div>
             </div>
             <div>
@@ -50,22 +50,48 @@
                   </div>
                 </div>
                 <div>
-                  <div>
+                  
                     Would you recommend freeCodeCamp to a friend?
                     <br/> 
-                    <lable>
+                    <label for="definitely">
+                   
+                    <input name="user-recommend" id="definitely" value="not-sure" type="radio" class="input-radio">
                     Definitely
-                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                  </label>
                     <br/>
+                    <label for="maybe">
+                    
+                    <input type="radio" name="user-recommend" id="maybe" value="maybe" class="input-radio">
                     maybe
-                    <input type="radio" name="user-recommend" value="maybe" class="input-radio">
+                  </label>
                     <br/>
-                    not sure
-                    <input type="radio" name="user-recommend" value="maybe" class="input-radio">
-                  </lable>
+                    <label for="notSure">
+                   
+                    <input type="radio" id="notSure" name="user-recommend" value="maybe" class="input-radio">
+                    not sure   
+                  </label>
                     <br /><br />
-                  </div>
-                </div>`
+                  
+                </div>
+                
+                <div class="improved">
+                  What would you like to see improved? (Check all that apply)
+
+                  <br />
+
+                  <label for="front-end">
+                   
+                    <input type="checkbox" name="improved" id="front-end" value="Front-end Projects"  />
+                    Front-end Projects
+                  </label>
+                    <br />
+                  <label for="back-end">
+                   
+                    <input type="checkbox" name="improved" id="back-end" value="Back-end Projects"  />
+                    Back-end Projects
+                  </label>
+
+                </div>
               <div>
                 <button class="sumbit" type="submit" value="Save">
                   Submit

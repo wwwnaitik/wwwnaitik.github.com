@@ -59,4 +59,16 @@ body {
 
 .heading {
     margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"] {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
 }
