@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-color: purple;
+  background-blend-mode: soft-light;
 }
 .form-container {
   width: 500px;
@@ -74,6 +75,5 @@ body {
 }
 .text {
   text-align: center;
-  width: 100%;
   resize: vertical;
 }

@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+.filtershot {
+  background-color: blueviolet;
+}
 .flex-container {
   background-color: tomato;
   height: 50px;
@@ -107,7 +110,7 @@ nav a:hover {
   font-size: 25px;
   text-align: center;
   word-spacing: 10px;
-  transition: ;
+  transition: ease-in-out;
 }
 .line {
   color: #be3144;
