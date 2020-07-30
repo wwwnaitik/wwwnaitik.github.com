@@ -2,37 +2,43 @@
 <html>
   <head>
     <title>Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="styler.css" rel="stylesheet" />
   </head>
-  <body class="background">
+  <body >
     <main>
+      <div class="heading">
+        <h1>freeCodeCamp Survey Form</h1>
+        <span>Thank you for taking the time to help us improve the platform</span>
+        <br />
+      </div>
       <div class="form-container">
-        <form class="background">
+        <form >
         <section>
           <div class="desine">
             <a name="contact me"></a><br /><br />
             <div>
               <div class="label">Name</div>
               <div class="form-field">
-                <input type="text" name="Name" /><br/><br/>
+                <input type="text" name="Name" placeholder="Enter your name" /><br/><br/>
               </div>
             </div>
             <div>
               <div class="label">Mobile:</div>
               <div class="form-field">
-                <input type="number" name="mobile" /> <br /><br />
+                <input type="number" name="mobile" placeholder="Enter your mobile numbers" /> <br /><br />
               </div>
             </div>
             <div>
               <div class="label">Email:</div>
               <div class="form-field">
-                <input type="email" name="email" /><br /><br />
+                <input type="email" name="email" placeholder="Enter your email" /><br /><br />
               </div>
               <div>
                 <div class="label">
                   Age (optional)
                   <div class="form-field">
-                    <input type="number" name="Age" /><br /><br />
+                    <input type="number" name="Age" placeholder="Enter your Age"/><br /><br />
                   </div>
                 </div>
               </div>
@@ -40,27 +46,113 @@
                 <div class="label">
                   Which option best describes your current role?  
                   <div class="form-field">
-                    <input type="text" name="Which option best describes your current role?  " /><br /><br />
+                    <input type="text" name="Which option best describes your current role? "placeholder="Which option best describes your current role? " /><br /><br />
                   </div>
                 </div>
                 <div>
-                  <div>
+                  
                     Would you recommend freeCodeCamp to a friend?
                     <br/> 
-                    <lable>
+                    <label for="definitely">
+                   
+                    <input name="user-recommend" id="definitely" value="not-sure" type="radio" class="input-radio">
                     Definitely
-                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                  </label>
                     <br/>
+                    <label for="maybe">
+                    
+                    <input type="radio" name="user-recommend" id="maybe" value="maybe" class="input-radio">
                     maybe
-                    <input type="radio" name="user-recommend" value="maybe" class="input-radio">
+                  </label>
                     <br/>
-                    not sure
-                    <input type="radio" name="user-recommend" value="maybe" class="input-radio">
-                  </lable>
+                    <label for="notSure">
+                   
+                    <input type="radio" id="notSure" name="user-recommend" value="maybe" class="input-radio">
+                    not sure   
+                  </label>
                     <br /><br />
-                  </div>
-                </div>`
-              <div>
+                  
+                </div>
+                
+                <div class="improved">
+                  What would you like to see improved? (Check all that apply)
+
+                  <br />
+
+                  <label for="front-end">
+                   
+                    <input type="checkbox" name="improved" id="front-end" value="Front-end Projects"  />
+                    Front-end Projects
+                  </label>
+                    <br />
+                  <label for="back-end">
+                   
+                    <input type="checkbox" name="improved" id="back-end" value="Back-end Projects"  />
+                    Back-end Projects
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="data Challengesn" value="Challenges"  />
+                    Challenges
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Open-Source-Community" value="Open Source Community"  />
+                    Open Source Community
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Gitter-help-rooms" value="Gitter help rooms"  />
+                    Gitter help rooms
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Videos" value="Videos"  />
+                    Videos
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="City-Meetups" value="City Meetups"  />
+                    City Meetups                  
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Wiki" value="Wiki"  />
+                    Wiki
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Forum" value="Forum"  />
+                    Forum
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Forum" value="Forum"  />
+                    Forum
+                  </label>
+                  <br/>
+                  <label for="Data-Visualization">
+                   
+                    <input type="checkbox" name="improved" id="Additional-Courses" value="Additional Courses"  />
+                    Additional Courses
+                  </label>
+                  <br/>
+                  <br/>
+                </div>
+                <div class="text-area">
+                 <p>Any comments or suggestions?</p><br/>
+                 <div class="text">
+                  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>                </div>
+                </div>
+                 <div>
                 <button class="sumbit" type="submit" value="Save">
                   Submit
                 </button>
