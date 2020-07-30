@@ -131,12 +131,16 @@ nav a:hover {
   text-align: center;
   color: #d1d2d4;
 }
-.facebook div {
+.social_links {
+  text-align: center;
   transition: width 2s, height 4s;
 }
-.facebook div {
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+.social_links span a {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.social_links span a:hover {
+  margin-top: 20px;
 }

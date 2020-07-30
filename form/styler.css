@@ -4,9 +4,10 @@ body {
   background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-color: purple;
   background-blend-mode: soft-light;
+  background-position: fixed;
 }
 .form-container {
-  width: 500px;
+  width: 700px;
   background-color: rgb(41, 41, 73);
   margin: auto;
   box-sizing: border-box;
@@ -36,7 +37,7 @@ body {
   border-radius: 5px;
   border: 1px solid #303841;
   font-weight: bold;
-  width: 450px;
+  width: 100%;
 }
 .input-radio,
 .input-checkbox {
@@ -72,6 +73,9 @@ body {
   border-radius: 10px;
   padding: 5px;
   font-size: 16px;
+}
+.input-checkbox {
+  ruby-overhang: start;
 }
 .text {
   text-align: center;
