@@ -10,12 +10,10 @@ body {
   width: 700px;
   background-color: rgb(41, 41, 73);
   margin: auto;
-  box-sizing: border-box;
   padding: 30px;
 }
 
 .desine {
-  font-size: 40pxpx;
   display: flexbox;
   color: azure;
 }
@@ -75,9 +73,13 @@ body {
   font-size: 16px;
 }
 .input-checkbox {
-  ruby-overhang: start;
 }
 .text {
   text-align: center;
-  resize: vertical;
+}
+.input-textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  padding: 10px;
 }
