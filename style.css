@@ -5,7 +5,7 @@ body {
   background-color: blueviolet;
 }
 .flex-container {
-  background-color: tomato;
+  background-color: #be3144;
   height: 50px;
   padding: 5px;
   display: flex;
@@ -33,7 +33,7 @@ nav a {
   height: 100%;
 }
 nav a:hover {
-  background-color: teal;
+  background-color: grey;
 }
 .flex-hero {
   background-color: #24292e;
@@ -48,13 +48,14 @@ nav a:hover {
   text-align: center;
 }
 .flex-hero h1 {
-  font-size: 40px;
+  font-size: 4rem;
   color: #ffffff;
   margin: 0;
+  font-weight: 100;
 }
 .flex-hero .tagline {
-  font-size: 17px;
-  color: green;
+  font-size: 25px;
+  color: #be3144;
 }
 .photos {
   background-color: #45567d;
@@ -64,6 +65,8 @@ nav a:hover {
   text-align: center;
   text-decoration: underline;
   margin: 0%;
+  color: #ffffff;
+  padding: 10rem;
 }
 
 .gallery {
@@ -105,7 +108,7 @@ nav a:hover {
   margin: 0;
   color: wheat;
 }
-.socialmedia {
+.socialmedia div {
   color: #ffffff;
   font-size: 25px;
   text-align: center;
