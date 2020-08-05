@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+.title {
+  height: 65px;
+  font-size: 45px;
+  font-style: italic;
+}
+.flex-container {
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-position: fixed;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  height: 82%;
+  padding-top: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.starting {
+  background-color: #007bd5;
+  height: 300px;
+  text-align: center;
+  padding-top: 70px;
+}
+.tag h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+}
+.tag span {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.box {
+  height: 50px;
+  width: 500px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.sumbit {
+  height: 55px;
+  background-color: #ee1133;
+  color: #ffffff;
+  border: none;
+}

@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .filtershot {
-  background-color: blueviolet;
+  background-color: royalblue;
 }
 .flex-container {
   background-color: #be3144;
@@ -11,6 +11,7 @@ body {
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  background-position: fixed;
 }
 .logo {
   padding: 15px;
@@ -96,6 +97,7 @@ nav a:hover {
 }
 .showall button:hover {
   background-color: #be3144;
+  transition: padding 0.3s ease-in-out;
 }
 .last {
   background-color: #24292e;
