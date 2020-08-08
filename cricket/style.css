@@ -80,11 +80,15 @@ nav a {
   font-size: 1.75rem;
   padding: 12px;
 }
+.toss {
+  font-family: "Roboto", sans-serif;
+}
 .image {
   padding: 12px;
 }
 .tagline span {
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .box hr {
   color: #cccccc;
@@ -94,7 +98,7 @@ nav a {
 }
 .links a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   background-color: #ee1133;
   margin: 0;
