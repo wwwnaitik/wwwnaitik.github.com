@@ -89,3 +89,14 @@ nav a {
 .box hr {
   color: #cccccc;
 }
+.links {
+  margin-left: 10px;
+}
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #ee1133;
+  margin: 0;
+  padding: 0.5em 1em;
+}
