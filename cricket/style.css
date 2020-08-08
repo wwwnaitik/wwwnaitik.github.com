@@ -104,3 +104,16 @@ nav a {
   margin: 0;
   padding: 0.5em 1em;
 }
+.lastpart {
+  background-color: #202020;
+  height: 55px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 27px;
+}
+.lastpart span {
+  padding: 15px;
+}
+@media only screen and (max-width: 600px) {
+}
