@@ -87,7 +87,7 @@ nav a:hover {
   text-align: center;
 }
 .showall button {
-  background-color: #303841;
+  background-color: #000000;
   padding: 12px;
   color: white;
   font-size: 17px;
@@ -97,10 +97,10 @@ nav a:hover {
   width: 150px;
 }
 .showall button:hover {
-  background-color: #be3144;
+  background-color: red;
 }
 .showall button:hover span {
-  background-color: #be3144;
+  background-color: red;
   padding-left: 15px;
   transition: padding 0.2s ease-in-out;
 }
