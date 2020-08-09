@@ -81,7 +81,7 @@ nav a:hover {
 }
 .gallery img {
   width: 400px;
-  margin-bottom: 30px;
+  display: block;
 }
 .showall {
   text-align: center;
@@ -91,15 +91,20 @@ nav a:hover {
   padding: 12px;
   color: white;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #303841;
   font-weight: bold;
   width: 150px;
 }
 .showall button:hover {
   background-color: #be3144;
-  transition: padding 0.3s ease-in-out;
 }
+.showall button:hover span {
+  background-color: #be3144;
+  padding-left: 15px;
+  transition: padding 0.2s ease-in-out;
+}
+
 .last {
   background-color: #24292e;
   justify-content: center;
@@ -153,4 +158,31 @@ nav a:hover {
 
 .social_links span a:hover {
   margin-top: 20px;
+}
+.box {
+  margin-bottom: 30px;
+}
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.code {
+  color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+.boxheading:hover .code {
+  color: brown;
+}
+.socialicon:hover {
+  transition: transform 0.5s ease-out;
+  transform: translateY(30);
+  border: 1px solid red;
 }
