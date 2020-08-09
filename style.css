@@ -116,13 +116,6 @@ nav a:hover {
   margin: 0;
   color: wheat;
 }
-.socialmedia div {
-  color: #ffffff;
-  font-size: 25px;
-  text-align: center;
-  word-spacing: 10px;
-  transition: ease-in-out;
-}
 
 .line {
   color: #be3144;
@@ -182,7 +175,20 @@ nav a:hover {
   color: brown;
 }
 .socialicon:hover {
-  transition: transform 0.5s ease-out;
-  transform: translateY(30);
-  border: 1px solid red;
+  transition: padding 0.5s linear;
+  padding-top: 40px;
+}
+.socialmedia div {
+  color: #ffffff;
+  font-size: 25px;
+  width: 800px;
+  margin: auto;
+}
+.socialmedia a {
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+.socialicon i {
+  margin-left: 5px;
 }
