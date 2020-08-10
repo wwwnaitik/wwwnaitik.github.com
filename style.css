@@ -9,9 +9,10 @@ body {
   background-color: #be3144;
   height: 50px;
   padding: 5px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-attachment: fixed;
+  position: fixed;
 }
 .logo {
   padding: 10px;
@@ -96,7 +97,7 @@ nav a:hover {
   font-weight: bold;
   width: 150px;
 }
-.showall a{
+.showall a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -186,4 +187,3 @@ nav a:hover {
 .socialicon i {
   margin-left: 5px;
 }
-.
