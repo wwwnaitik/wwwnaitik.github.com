@@ -101,8 +101,8 @@ nav a:hover {
 }
 .showall button:hover span {
   background-color: red;
-  padding-left: 15px;
-  transition: padding 0.2s ease-in-out;
+  padding-left: 13px;
+  transition: padding 0.6s ease-in-out;
 }
 
 .last {
@@ -120,17 +120,8 @@ nav a:hover {
 .line {
   color: #be3144;
 }
-.lasttext {
-  text-align: initial;
-  font-size: 20px;
-  color: #d0d1d2;
-  display: flex;
-  justify-content: space-between;
-  background-color: #24292e;
-  padding-left: 20px;
-}
 .lastsentence {
-  text-align: right;
+  text-align: center;
   font-size: 20px;
   color: #d0d1d2;
   padding-right: 20px;
@@ -141,7 +132,6 @@ nav a:hover {
 }
 .social_links {
   text-align: center;
-  transition: width 2s, height 4s;
 }
 .social_links span a {
   color: #ffffff;
