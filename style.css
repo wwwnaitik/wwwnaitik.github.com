@@ -11,7 +11,7 @@ body {
   padding: 5px;
   display: flex;
   justify-content: space-between;
-  background-position: fixed;
+  background-attachment: fixed;
 }
 .logo {
   padding: 10px;
