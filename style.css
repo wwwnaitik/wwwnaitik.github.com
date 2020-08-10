@@ -162,7 +162,7 @@ nav a:hover {
 }
 
 .boxheading:hover .code {
-  color: brown;
+  color: orangered;
 }
 .socialicon:hover {
   transition: padding 0.5s linear;
