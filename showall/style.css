@@ -1,0 +1,21 @@
+head {
+  text-align: center;
+  font-style: italic;
+}
+body {
+  margin: 0;
+  background-color: teal;
+}
+.box {
+  margin-bottom: 30px;
+}
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}

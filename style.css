@@ -96,6 +96,10 @@ nav a:hover {
   font-weight: bold;
   width: 150px;
 }
+.showall a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .showall button:hover {
   background-color: red;
 }
@@ -182,3 +186,4 @@ nav a:hover {
 .socialicon i {
   margin-left: 5px;
 }
+.
