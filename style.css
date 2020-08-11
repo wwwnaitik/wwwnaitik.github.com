@@ -7,12 +7,12 @@ body {
 }
 .flex-container {
   background-color: #be3144;
-  height: 50px;
-  padding: 5px;
+  height: 70px;
+  /* padding: 5px; */
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  /* position: fixed; */
 }
 .logo {
   padding: 10px;
@@ -70,7 +70,7 @@ nav a:hover {
   text-decoration: underline;
   margin: 0%;
   color: #ffffff;
-  padding: 10rem;
+  padding: 30px 0 30px 0;
 }
 
 .gallery {
@@ -173,12 +173,7 @@ nav a:hover {
   transition: padding 0.5s linear;
   padding-top: 40px;
 }
-.socialmedia div {
-  color: #ffffff;
-  font-size: 25px;
-  width: 800px;
-  margin: auto;
-}
+
 .socialmedia a {
   display: block;
   float: left;
@@ -186,4 +181,54 @@ nav a:hover {
 }
 .socialicon i {
   margin-left: 5px;
+}
+.ongoing:hover {
+  transition: padding 0.5s linear;
+  padding-top: 40px;
+}
+.socialmedia div {
+  color: #ffffff;
+  font-size: 25px;
+  /* width: 800px; */
+  margin: auto;
+}
+.socialmedia a {
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+.ongoing i {
+  margin-left: 5px;
+}
+.going a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav-icon {
+  display: none;
+}
+.flex-nav-mobile {
+  display: none;
+}
+@media (max-width: 700px) {
+  .box {
+    width: 100%;
+  }
+  .flex-container {
+    width: 100%;
+  }
+  .nav-icon {
+    color: #ffffff;
+    display: block;
+  }
+  .nav-icon i {
+    height: 50px;
+    width: 50px;
+  }
+  .flex-nav {
+    display: none;
+  }
+  .gallery img {
+    width: 100%;
+  }
 }

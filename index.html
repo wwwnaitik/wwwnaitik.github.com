@@ -8,6 +8,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script>
+      function openNav() {
+        var nav = document.querySelector(".flex-nav-mobile");
+        var icon = document.querySelector(".nav-icon i");
+       
+        if (nav.style.display == 'block') {
+          nav.style.display = 'none';
+          icon.classList.remove('fa-close');
+          icon.classList.add('fa-bars');
+        } else {
+          nav.style.display = 'block';
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-close');
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="filtershot">
@@ -22,8 +39,17 @@
               <a href="#P4">Work</a>
               <a href="#L4">Contact</a>
             </nav>
+            <div class="nav-icon">
+              <i class="fa fa-bars" onclick="openNav()"></i>
+            </div>
           </div>
         </div>
+       
+        <nav class="flex-nav-mobile">
+          <a href="#">About</a>
+          <a href="#P4">Work</a>
+          <a href="#L4">Contact</a>
+        </nav>
       </header>
       <section>
         <div class="flex-hero">
@@ -86,7 +112,7 @@
             <div>
               <a class="socialicon"><i class="fa fa-facebook"></i>facebook</a>
               <a class="socialicon"><i class="fa fa-twitter"></i>twitter</a>
-              <a class="socialicon"><i class="fa fa-github"></i>github</a>
+              <a class="socialicon"><div class="going"><a class="ongoing" href="https://github.com/wwwnaitik" target="_blank"><i class="fa fa-github"></i>github</a></div></a>
               <a class="socialicon"><i class="fa fa-instagram"></i>instagram </a>
               <a class="socialicon"><i class="fa fa-phone"></i>phone </a>
             </div>
