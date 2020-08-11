@@ -217,6 +217,7 @@ nav a:hover {
   .flex-container {
     width: 100%;
     position: unset;
+    height: 60px;
   }
   .nav-icon {
     color: #ffffff;
@@ -243,5 +244,8 @@ nav a:hover {
   }
   .socialmedia div {
     font-size: 12.5px;
+  }
+  .flex-hero {
+    height: 300px;
   }
 }
