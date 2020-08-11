@@ -101,14 +101,14 @@ nav a:hover {
   text-decoration: none;
   color: #ffffff;
 }
-.showall button:hover {
+/* .showall button:hover {
   background-color: red;
 }
 .showall button:hover span {
   background-color: red;
   padding-left: 13px;
   transition: padding 0.6s ease-in-out;
-}
+} */
 
 .last {
   background-color: #24292e;
