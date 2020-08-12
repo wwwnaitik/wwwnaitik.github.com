@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .filtershot {
-  background-color: royalblue;
+  background-color: #be3144;
 }
 .flex-container {
   background-color: #be3144;
@@ -176,7 +176,6 @@ nav a:hover {
 
 .socialmedia a {
   display: block;
-  float: left;
   margin-left: 30px;
 }
 .socialicon i {
@@ -200,9 +199,13 @@ nav a:hover {
 .ongoing i {
   margin-left: 5px;
 }
+.going {
+  text-align: center;
+}
 .going a {
   text-decoration: none;
   color: #ffffff;
+  text-align: center;
 }
 .nav-icon {
   display: none;
@@ -216,7 +219,7 @@ nav a:hover {
   }
   .flex-container {
     width: 100%;
-    position: unset;
+    position: fixed;
     height: 60px;
   }
   .nav-icon {
