@@ -216,6 +216,13 @@ nav a:hover {
   .box {
     width: 100%;
   }
+  .flex-nav-mobile {
+    position: absolute;
+    position: fixed;
+    top: 60px;
+    background-color: #be3144;
+    width: 100%;
+  }
   .flex-container {
     width: 100%;
     position: fixed;
