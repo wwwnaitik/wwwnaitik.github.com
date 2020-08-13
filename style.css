@@ -135,18 +135,7 @@ nav a:hover {
   text-align: center;
   color: #d1d2d4;
 }
-.social_links {
-  text-align: center;
-}
-.social_links span a {
-  color: #ffffff;
-  font-size: 22px;
-  margin-right: 20px;
-}
 
-.social_links span a:hover {
-  margin-top: 20px;
-}
 .box {
   margin-bottom: 30px;
 }
@@ -174,10 +163,6 @@ nav a:hover {
   padding-top: 40px;
 }
 
-.socialmedia a {
-  display: block;
-  margin-left: 30px;
-}
 .socialicon i {
   margin-left: 5px;
 }
@@ -189,12 +174,16 @@ nav a:hover {
   color: #ffffff;
   font-size: 25px;
   /* width: 800px; */
-  margin: auto;
+  margin-left: 250px;
 }
 .socialmedia a {
-  display: block;
-  float: left;
   margin-left: 30px;
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
+  float: left;
+  display: block;
 }
 .ongoing i {
   margin-left: 5px;
