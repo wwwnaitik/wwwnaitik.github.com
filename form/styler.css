@@ -80,3 +80,8 @@ body {
   height: 150px;
   border-radius: 10px;
 }
+@media (max-width: 900px) {
+  .form-container {
+    width: 90%;
+  }
+}
