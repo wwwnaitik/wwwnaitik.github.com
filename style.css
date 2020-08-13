@@ -201,7 +201,7 @@ nav a:hover {
 .flex-nav-mobile {
   display: none;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .box {
     width: 100%;
   }
