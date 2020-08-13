@@ -84,4 +84,10 @@ body {
   .form-container {
     width: 70%;
   }
+  .heading h1 {
+    font-size: 20px;
+  }
+  .heading span {
+    font-size: ;
+  }
 }
