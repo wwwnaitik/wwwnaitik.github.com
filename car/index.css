@@ -1,0 +1,77 @@
+.car {
+  width: 550px;
+}
+
+.wheel {
+  border: 5px solid #000000;
+  height: 170px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 50%;
+  justify-content: space-between;
+  margin-left: 250px;
+}
+.wheeles {
+  border: 5px solid #000000;
+  height: 170px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 50%;
+  justify-content: space-between;
+}
+.wheel-con {
+  border: 5px solid #847e82;
+  height: 100px;
+  margin: 30px;
+  width: 100px;
+  background-color: #847e82;
+  border-radius: 50%;
+}
+.wheel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 400px;
+  margin-top: 125px;
+}
+.rock {
+  border: 30px solid teal;
+  height: 200px;
+  width: 800px;
+  background-color: teal;
+  border-radius: 35%;
+  margin-left: 250px;
+  position: absolute;
+}
+.top {
+  border: 4px solid grey;
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border-radius: 10%;
+  left: 580px;
+  z-index: 1;
+  top: 10px;
+}
+.roof {
+  border: 30px solid teal;
+  height: 200px;
+  width: 450px;
+  background-color: teal;
+  border-radius: 35%;
+  margin-left: 300px;
+  position: absolute;
+  top: 0px;
+  right: 415px;
+}
+.window {
+  border: 5px solid #ffffff;
+  height: 170px;
+  width: 230px;
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 15%;
+}
+.windows {
+}
