@@ -1,5 +1,6 @@
 .car {
   width: 550px;
+  position: relative;
 }
 
 .wheel {
@@ -29,7 +30,6 @@
 }
 .wheel-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   position: absolute;
   left: 400px;
@@ -46,13 +46,13 @@
 }
 .top {
   border: 4px solid grey;
-  height: 400px;
+  height: 380px;
   width: 250px;
   position: absolute;
   border-radius: 10%;
-  left: 580px;
+  left: 577px;
   z-index: 1;
-  top: 10px;
+  top: -190px;
 }
 .roof {
   border: 30px solid teal;
@@ -60,10 +60,9 @@
   width: 450px;
   background-color: teal;
   border-radius: 35%;
-  margin-left: 300px;
   position: absolute;
-  top: 0px;
-  right: 415px;
+  top: -170px;
+  margin-left: 450px;
 }
 .window {
   border: 5px solid #ffffff;
@@ -72,6 +71,4 @@
   background-color: #ffffff;
   margin: 5px;
   border-radius: 15%;
-}
-.windows {
 }
