@@ -72,3 +72,49 @@
   margin: 5px;
   border-radius: 15%;
 }
+.windowes {
+  border: 5px solid #ffffff;
+  height: 150px;
+  width: 90px;
+  background-color: #ffffff;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  left: -20px;
+  top: -5px;
+}
+.short {
+  border: 5px solid #ffffff;
+  height: 150px;
+  width: 90px;
+  background-color: #ffffff;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  left: 366px;
+  top: -5px;
+}
+.flight {
+  border: 1px solid orange;
+  height: 55px;
+  width: 15px;
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+  left: 235px;
+  top: 115px;
+}
+.blight {
+  border: 1px solid gray;
+  height: 55px;
+  width: 15px;
+  position: absolute;
+  background-color: gray;
+  border-radius: 10px;
+  right: -575px;
+  top: 115px;
+}
