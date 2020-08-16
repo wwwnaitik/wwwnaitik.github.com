@@ -1,0 +1,114 @@
+.center {
+  margin: 200px;
+}
+.petal1 {
+  height: 100px;
+  width: 280px;
+  border-radius: 50px;
+  background-color: royalblue;
+  position: absolute;
+}
+.petal2 {
+  height: 100px;
+  width: 280px;
+  border-radius: 50px;
+  background-color: royalblue;
+  display: block;
+  transform: rotate(60deg);
+  position: absolute;
+}
+.petal3 {
+  height: 100px;
+  width: 280px;
+  border-radius: 50px;
+  background-color: royalblue;
+  transform: rotate(300deg);
+  position: absolute;
+}
+.stem {
+  width: 15px;
+  height: 400px;
+  background-color: mediumseagreen;
+  border-radius: 2px;
+  margin-left: 132px;
+}
+.leaf1 {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  margin-left: 145px;
+  top: 470px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: 150px;
+}
+.leaf2 {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  margin-left: 33px;
+  top: 450px;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+.pot {
+  height: 170px;
+  width: 200px;
+  background-color: brown;
+  position: absolute;
+  margin-left: 40px;
+  border-radius: 20px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+.circle {
+  border: 1px solid #ffffff;
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  left: 280px;
+  top: 215px;
+}
+.circles {
+  border: 1px solid #ffffff;
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  left: 370px;
+  top: 215px;
+}
+.dot1 {
+  border: 1px solid black;
+  height: 20px;
+  width: 15px;
+  position: absolute;
+  background-color: black;
+  border-radius: 20px;
+  left: 380px;
+  top: 245px;
+}
+.dot2 {
+  border: 1px solid black;
+  height: 20px;
+  width: 15px;
+  position: absolute;
+  background-color: black;
+  border-radius: 20px;
+  left: 290px;
+  top: 245px;
+}
+.nose {
+  border: 1px solid plum;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background-color: plum;
+  border-radius: 20px;
+  left: 326px;
+  top: 275px;
+}
