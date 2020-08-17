@@ -24,8 +24,7 @@ nav a {
   font-size: 20px;
   color: white;
   margin-left: 20px;
-  height: 82%;
-  padding-top: 13px;
+  padding: 50px 10px 25px 11px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -200,6 +199,9 @@ nav a:hover {
 }
 .flex-nav-mobile {
   display: none;
+}
+.flex-nav {
+  padding-top: 16px;
 }
 @media (max-width: 900px) {
   .box {
