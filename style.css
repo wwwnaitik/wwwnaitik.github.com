@@ -172,6 +172,7 @@ nav a:hover {
 .socialmedia div {
   color: #ffffff;
   font-size: 25px;
+  margin-left: 250px;
   /* width: 800px; */
   /* margin-left: 250px; */
 }
@@ -206,6 +207,9 @@ nav a:hover {
 @media (max-width: 900px) {
   .box {
     width: 100%;
+  }
+  .socialmedia div {
+    margin-left: 0px;
   }
   .flex-nav-mobile {
     position: absolute;
