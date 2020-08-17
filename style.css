@@ -15,7 +15,7 @@ body {
   position: fixed;
 }
 .logo {
-  padding: 10px;
+  padding: 19px;
   color: white;
   font-size: 20px;
 }
@@ -143,6 +143,9 @@ nav a:hover {
   color: #ffffff;
   padding: 20px;
   text-align: center;
+  width: 360px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .boxheading a {
   text-decoration: none;
@@ -172,28 +175,22 @@ nav a:hover {
 .socialmedia div {
   color: #ffffff;
   font-size: 25px;
-  margin-left: 250px;
+  width: 300px;
+  margin: auto;
   /* width: 800px; */
   /* margin-left: 250px; */
 }
 .socialmedia a {
-  margin-left: 30px;
   font-size: 24px;
   transition: 0.3s ease-in-out;
   color: white;
   text-decoration: none;
   float: left;
   display: block;
+  padding: 5px;
 }
 .ongoing i {
   margin-left: 5px;
-}
-.going {
-  text-align: center;
-}
-.going a {
-  text-decoration: none;
-  color: #ffffff;
 }
 .nav-icon {
   display: none;
