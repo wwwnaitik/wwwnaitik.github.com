@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.startingimage {
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  height: 550px;
+  width: 100%;
+}
+.app nav a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.app nav a {
+  font-size: 1.4rem;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  top: 40px;
+  text-decoration: none;
+}
+.flex-hero img {
+  position: absolute;
+  top: 203px;
+  right: 600px;
+}
+.flex-hero span {
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  left: 360px;
+}
