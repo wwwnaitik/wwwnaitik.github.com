@@ -226,6 +226,7 @@ nav a:hover {
   }
   .nav-icon i {
     height: 50px;
+    padding-top: 20px;
     width: 50px;
   }
   .flex-nav {
