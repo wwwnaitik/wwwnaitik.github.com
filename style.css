@@ -15,7 +15,7 @@ body {
   position: fixed;
 }
 .logo {
-  padding: 19px;
+  padding: 10px;
   color: white;
   font-size: 20px;
 }
@@ -143,9 +143,6 @@ nav a:hover {
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  width: 360px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 .boxheading a {
   text-decoration: none;
@@ -187,7 +184,6 @@ nav a:hover {
   text-decoration: none;
   float: left;
   display: block;
-  padding: 5px;
 }
 .ongoing i {
   margin-left: 5px;
@@ -226,8 +222,8 @@ nav a:hover {
   }
   .nav-icon i {
     height: 50px;
-    padding-top: 20px;
     width: 50px;
+    padding-top: 20px;
   }
   .flex-nav {
     display: none;
