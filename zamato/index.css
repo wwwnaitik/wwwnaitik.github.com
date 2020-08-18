@@ -1,37 +1,80 @@
 body {
   margin: 0;
 }
-.startingimage {
+.starting {
   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
-  height: 550px;
-  width: 100%;
+  height: 700px;
 }
-.app nav a {
-  margin-left: 50px;
+.link a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 15px;
-}
-.app nav a {
-  font-size: 1.4rem;
+  font-size: 20px;
+  margin-left: 180px;
   position: absolute;
-  left: 0px;
+  top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.nav {
   display: flex;
   align-items: center;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  position: absolute;
   top: 40px;
-  text-decoration: none;
+  word-spacing: 50px;
+  right: 70px;
 }
-.flex-hero img {
+.title {
   position: absolute;
-  top: 203px;
-  right: 600px;
+  top: 200px;
+  left: 550px;
 }
-.flex-hero span {
+.tagline {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 40px;
   position: absolute;
-  top: 280px;
-  left: 360px;
+  top: 295px;
+  left: 325px;
+}
+.box {
+  width: 50px;
+  position: absolute;
+  top: 380px;
+  left: 430px;
+}
+.box input {
+  width: 250px;
+  height: 40px;
+  font-size: 17px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+@media (max-width: 700px) {
+  .box input {
+    left: -320px;
+    top: -35px;
+  }
+  .startingimage {
+    height: 500px;
+  }
+  .link a {
+    font-size: 25px;
+    left: -125px;
+  }
+  .title {
+    right: 0px;
+    left: 90px;
+  }
+  .tagline {
+    font-size: 24px;
+    left: 20px;
+  }
 }
