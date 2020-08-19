@@ -184,6 +184,7 @@ nav a:hover {
   text-decoration: none;
   float: left;
   display: block;
+  padding-left: 20px;
 }
 .ongoing i {
   margin-left: 5px;

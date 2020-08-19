@@ -3,78 +3,174 @@ body {
 }
 .starting {
   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
-  height: 700px;
+  height: 600px;
 }
-.link a {
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+.navigation a {
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
-  margin-left: 180px;
-  position: absolute;
-  top: 40px;
-  font-family: "Roboto", sans-serif;
-}
-nav a {
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-}
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Roboto", sans-serif;
-}
-.flex {
-  position: absolute;
-  top: 40px;
-  word-spacing: 50px;
-  right: 70px;
+  padding: 20px;
 }
 .title {
-  position: absolute;
-  top: 200px;
-  left: 550px;
+  text-align: center;
+  padding-top: 80px;
+}
+.title img {
+  width: 300px;
 }
 .tagline {
   color: #ffffff;
-  font-size: 40px;
-  position: absolute;
-  top: 295px;
-  left: 325px;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
 }
 .box {
-  width: 50px;
-  position: absolute;
-  top: 380px;
-  left: 430px;
+  padding-top: 20px;
+  text-align: center;
+}
+.boxs {
+  padding-top: 20px;
+  text-align: center;
+}
+.boxs input {
+  height: 35px;
+  width: 400px;
+  border: none;
 }
 .box input {
+  height: 35px;
+  width: 200px;
+  border: none;
+}
+.search {
+  display: flex;
+  margin-left: 400px;
+  padding-top: 20px;
+}
+.searchbox {
+  padding-top: 20px;
+}
+.searchbox button {
+  height: 38px;
+  color: #ffffff;
+  width: 40px;
+  border-top-right-radius: 7px;
+  background-color: red;
+  border-bottom-right-radius: 7px;
+  border: 1px solid red;
+}
+/* section2 */
+.section2 {
+  width: 1200px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photos {
+  border: 1px solid gray;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 280px;
+  height: 250px;
+}
+.photos img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.photos p {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  margin: 0;
+  margin-top: 9px;
+}
+.heading {
+  font-size: 30px;
+  color: gray;
+  padding-top: 100px;
+}
+.collection {
+  display: flex;
+  justify-content: space-between;
+}
+.collection p {
+  font-size: 20px;
+}
+.collection span {
+  color: red;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.gallary2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 40px 0px 40px;
+}
+.images {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  height: auto;
   width: 250px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+.first {
+  color: #ffffff;
+  padding-top: 240px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.images span {
+  font-size: 15px;
+}
+.thirdpart h1 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 60px;
+  color: #363636;
+  font-weight: 150;
+}
+.flex-more {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-between;
+  margin: 0px 0px 0px 200px;
+  padding-top: 10px;
+}
+.flex-box {
+  border: 1px solid #e8e8e8;
+  margin-top: 30px;
+  width: 310px;
   height: 40px;
-  font-size: 17px;
-  position: absolute;
-  left: 0px;
-  top: 5px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #1c1c1c;
+}
+.flex-box span {
+  font-size: 15px;
+  padding-left: 20px;
 }
 @media (max-width: 700px) {
-  .box input {
-    left: -320px;
-    top: -35px;
-  }
-  .startingimage {
-    height: 500px;
-  }
-  .link a {
-    font-size: 25px;
-    left: -125px;
-  }
-  .title {
-    right: 0px;
-    left: 90px;
+  .title img {
+    width: 210px;
   }
   .tagline {
-    font-size: 24px;
-    left: 20px;
+    font-size: 20px;
   }
 }
