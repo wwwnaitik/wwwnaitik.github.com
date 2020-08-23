@@ -1,6 +1,8 @@
 body {
   margin: 0;
+  font-family: Okra, Helvetica, sans-serif;
 }
+
 .starting {
   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
   height: 600px;
@@ -91,7 +93,7 @@ body {
 }
 .photos p {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: gray;
   margin: 0;
   margin-top: 9px;
@@ -166,6 +168,40 @@ body {
   font-size: 15px;
   padding-left: 20px;
 }
+.phone-image {
+  padding-left: 160px;
+  padding-top: 40px;
+}
+.phone- {
+  background-color: #fffbf7;
+  border: 1px solid red;
+  height: auto;
+  margin: 200px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+/* radiobuttons */
+.zomato-app {
+  width: 450px;
+  padding: 40px 0px 0px 30px;
+}
+.zomato-app h1 {
+  font-size: 50px;
+  font-weight: 50;
+}
+.zomato-app p {
+  font-size: 17px;
+}
+.radiocheck {
+  display: flex;
+  text-align: center;
+}
+.radiocheck label {
+  padding-right: 30px;
+}
+
 @media (max-width: 700px) {
   .title img {
     width: 210px;
