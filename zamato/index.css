@@ -175,7 +175,6 @@ body {
 }
 .phone- {
   background-color: #fffbf7;
-  border: 1px solid red;
   height: auto;
   margin: 200px 0px 0px 0px;
   display: flex;
@@ -202,7 +201,47 @@ body {
 .radiocheck label {
   padding-right: 30px;
 }
-
+.inputcheck {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.inputcheck input {
+  width: 250px;
+  height: 40px;
+  font-size: 19px;
+  padding-left: 6px;
+}
+.link {
+  display: flex;
+  flex-wrap: wrap;
+}
+.share-link {
+  margin-top: 20px;
+  height: 10px;
+  background-color: #ed5a6b;
+  margin-left: 20px;
+  padding: 15px 10px 20px 10px;
+  border-radius: 5px;
+}
+.share-link:hover {
+  background-color: #ec4654;
+}
+.share-link a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.tag2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 10px;
+}
+.download {
+  display: flex;
+  opacity: 0.9;
+}
+.playstore {
+  margin-right: 20px;
+}
 @media (max-width: 700px) {
   .title img {
     width: 210px;
