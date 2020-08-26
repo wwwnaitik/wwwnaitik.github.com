@@ -202,6 +202,9 @@ nav a:hover {
   .box {
     width: 100%;
   }
+  nav a {
+    height: 20px;
+  }
   .socialmedia div {
     margin-left: 0px;
   }
@@ -211,6 +214,9 @@ nav a:hover {
     top: 60px;
     background-color: #be3144;
     width: 100%;
+  }
+  nav a {
+    padding: 0px 0px 0px 0px;
   }
   .flex-container {
     width: 10 0%;
