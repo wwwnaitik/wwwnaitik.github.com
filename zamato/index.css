@@ -242,31 +242,60 @@ body {
 .playstore {
   margin-right: 20px;
 }
+.inline {
+  display: flex;
+}
 @media (max-width: 700px) {
   .title img {
-    width: 210px;
+    width: 300px;
   }
   .tagline {
-    font-size: 20px;
-  }
-  .tagline {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 29px;
+    font-size: 24px;
     text-align: center;
-    padding-top: 20px;
+  }
+  .navigation {
+    display: none;
   }
   .search {
-    /* display: flex; */
-    margin-left: 47px;
-    padding-top: 20px;
+    display: block;
+    margin-left: 155px;
   }
   .inline {
     display: flex;
   }
+  .boxs input {
+    width: 220px;
+  }
+  .box {
+    text-align: unset;
+  }
+  .title {
+    text-align: unset;
+    margin-left: 125px;
+  }
   .section2 {
-    width: 630px;
-    margin-left: 38px;
+    width: 300px;
+    margin-left: 140px;
     margin-top: 50px;
+  }
+  .photos {
+    margin-bottom: 10px;
+  }
+  .flex-more {
+    width: 0;
+  }
+  .collection {
+    display: none;
+  }
+  .gallary2 {
+    margin: 0px 0px 0px 0px;
+  }
+  .images {
+    margin-bottom: 20px;
+  }
+  .thirdpart h1 {
+    font-size: 15px;
+    text-align: unset;
+    padding-left: 40px;
   }
 }
