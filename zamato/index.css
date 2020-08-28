@@ -250,15 +250,15 @@ body {
     width: 300px;
   }
   .tagline {
-    font-size: 24px;
-    text-align: center;
+    font-size: 17px;
+    text-align: unset;
   }
   .navigation {
     display: none;
   }
   .search {
     display: block;
-    margin-left: 155px;
+    margin-left: 75px;
   }
   .inline {
     display: flex;
@@ -271,11 +271,11 @@ body {
   }
   .title {
     text-align: unset;
-    margin-left: 125px;
+    margin-left: 44px;
   }
   .section2 {
-    width: 300px;
-    margin-left: 140px;
+    width: 250px;
+    margin-left: 50px;
     margin-top: 50px;
   }
   .photos {
@@ -283,9 +283,35 @@ body {
   }
   .flex-more {
     width: 0;
+    margin: 0px 0px 0px 50px;
   }
   .collection {
     display: none;
+  }
+  .phone- {
+    justify-content: unset;
+  }
+  .zomato-app h1 {
+    font-size: 35px;
+  }
+  .zomato-app p {
+    font-size: 11px;
+  }
+  .zomato-app {
+    width: 405px;
+    padding: 40px 0px 0px 10px;
+  }
+  .inputcheck input {
+    width: 200px;
+  }
+  .playstore {
+    margin-right: 10px;
+  }
+  .share-link {
+    margin-left: 5px;
+  }
+  .phone-image {
+    padding-left: 0px;
   }
   .gallary2 {
     margin: 0px 0px 0px 0px;
