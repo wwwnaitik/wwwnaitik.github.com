@@ -40,7 +40,7 @@ body {
   display: flex;
 }
 .table-border {
-  width: 80%;
+  width: 1000px;
   height: 400px;
   border: 1px solid gray;
   margin-left: 150px;
@@ -56,7 +56,7 @@ body {
   justify-content: space-between;
 }
 .header-box {
-  width: 200px;
+  width: 160px;
   height: 100%;
   border: 1px solid black;
   border-radius: 50px;
@@ -64,35 +64,73 @@ body {
 }
 .header-box span {
   font-size: 18px;
-  margin-top: 3px;
+  margin-top: 10px;
+  padding-left: 3px;
 }
 .tag {
   padding-right: 20px;
-  padding-top: 13px;
+  padding-top: 15px;
   font-size: 18x;
   color: blue;
 }
-.inheader-circle {
-  height: 25px;
-  width: 25px;
+.dash {
+  font-size: 20px;
+  padding-top: 12px;
+}
+.incircle {
+  height: 90%;
+  width: 40px;
   border: 1px solid black;
-  font-size: 50px;
-  margin-left: 10px;
   border-radius: 50px;
 }
-@media (max-width: 700px) {
-  .notifications {
-    padding-left: 118px;
-  }
+.incircle i {
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+.incircle span {
+  font-size: 30px;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.title {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+table {
+  background: #80808021;
+  width: 100%;
+  text-align: center;
+}
+
+.-border {
+  border-right: 1px solid skyblue;
+}
+table {
+  border-spacing: 0;
+}
+th {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 2px dotted skyblue;
+}
+
+.first-border-last {
+  border-bottom: none;
+  border-right: 1px solid skyblue;
+  padding-bottom: 14px;
+}
+
+.last {
+  border-bottom: none;
+}
+@media (max-width: 1000px) {
   .table-border {
-    margin-left: 1px;
-    width: 100%;
-  }
-  .header-box span {
-    font-size: 15px;
-    padding-left: 10px;
-  }
-  .tag {
-    padding-top: 5px;
+    width: 500px;
   }
 }
