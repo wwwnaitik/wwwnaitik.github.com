@@ -107,9 +107,6 @@ table {
 .-border {
   border-right: 1px solid skyblue;
 }
-table {
-  border-spacing: 0;
-}
 th {
   padding: 8px;
   border-bottom: 1px solid black;
@@ -120,7 +117,7 @@ td {
   border-bottom: 2px dotted skyblue;
 }
 
-.first-border-last {
+.border-last {
   border-bottom: none;
   border-right: 1px solid skyblue;
   padding-bottom: 14px;
@@ -131,6 +128,12 @@ td {
 }
 @media (max-width: 1000px) {
   .table-border {
-    width: 500px;
+    width: 1000px;
+  }
+  .section2 {
+    font-size: 20px;
+  }
+  .top {
+    width: 1300px;
   }
 }
