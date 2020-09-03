@@ -172,7 +172,7 @@ nav a:hover {
 .socialmedia div {
   color: #ffffff;
   font-size: 25px;
-  width: 300px;
+  width: 451px;
   margin: auto;
   /* width: 800px; */
   /* margin-left: 250px; */
@@ -207,6 +207,7 @@ nav a:hover {
   }
   .socialmedia div {
     margin-left: 0px;
+    width: 300px;
   }
   .flex-nav-mobile {
     position: absolute;
