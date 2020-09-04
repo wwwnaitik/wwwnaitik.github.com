@@ -82,6 +82,7 @@ nav a:hover {
 .gallery img {
   width: 400px;
   display: block;
+  height: 272px;
 }
 .showall {
   text-align: center;
