@@ -3,6 +3,7 @@ body {
 }
 .whole {
   display: flex;
+  flex-wrap: wrap;
 }
 .image {
   height: 660px;
@@ -27,7 +28,7 @@ body {
   padding-top: 100px;
 }
 @media (max-width: 700px) {
-  .whole {
-    display: block;
+  .image2 img {
+    height: 677px;
   }
 }
