@@ -14,7 +14,7 @@ body {
   background-size: cover;
 }
 .image2 img {
-  height: 660px;
+  height: 689px;
 }
 .image h1 {
   text-align: center;
@@ -27,8 +27,18 @@ body {
   font-size: 22px;
   padding-top: 100px;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .image2 img {
-    height: 677px;
+    height: 478px;
+  }
+  .image {
+    width: 5000px;
+    background-size: none;
+  }
+  .tag {
+    padding: 10px;
+  }
+  .whole {
+    border: 1px solid black;
   }
 }
