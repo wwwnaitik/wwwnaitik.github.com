@@ -159,7 +159,34 @@ body {
   text-decoration: underline;
   color: purple;
 }
-
+.button {
+  border: 1px solid #772386;
+  border-radius: 10px;
+  height: 35px;
+  width: 81%;
+  background-color: #772386;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-left: 115px;
+  padding-top: 12px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.button:hover {
+  background-color: #e18e00;
+  border: 1px solid #e18e00;
+}
+.link-next {
+  color: #fff;
+  font-size: 16px;
+}
+.button i {
+  padding-left: 5px;
+  font-size: 16px;
+}
+.purple a {
+  text-decoration: none;
+}
 @media (max-width: 800px) {
   .link img {
     margin-left: 5px;
@@ -190,5 +217,9 @@ body {
   }
   .name-box input {
     margin-left: 5px;
+  }
+  .button {
+    margin-left: 27px;
+    width: 89%;
   }
 }
