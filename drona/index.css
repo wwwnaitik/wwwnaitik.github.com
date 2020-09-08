@@ -9,6 +9,7 @@ body {
   height: 74px;
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: space-between;
 }
 .link img {
   height: 57px;
@@ -24,7 +25,7 @@ body {
   margin-top: 20px;
   padding-left: 15px;
   border-radius: 10px;
-  margin-left: 823px;
+  margin-right: 100px;
   color: purple;
 }
 
@@ -118,14 +119,14 @@ body {
   padding-top: 70px;
 }
 .button {
-  border: 1px solid purple;
+  border: 1px solid #772386;
   border-radius: 10px;
   height: 35px;
-  width: 83%;
-  background-color: purple;
+  width: 81%;
+  background-color: #772386;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 109px;
+  margin-left: 115px;
   padding-top: 12px;
   transition: 0.5s;
 }
@@ -133,28 +134,26 @@ body {
   background-color: #e18e00;
   border: 1px solid #e18e00;
 }
-.button a {
+.link-next {
   color: #fff;
-  text-decoration: none;
   font-size: 16px;
 }
 .button i {
   padding-left: 5px;
   font-size: 16px;
 }
+.purple a {
+  text-decoration: none;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .link img {
-    height: 47px;
-    margin-left: 10px;
-    width: 155px;
+    margin-left: 5px;
     margin-top: 12px;
   }
   .form-control {
-    margin-left: 37px;
+    margin-right: 30px;
     font-size: 14px;
-    width: 95px;
-    padding-left: 12px;
   }
   .text {
     font-size: 28px;
@@ -164,7 +163,7 @@ body {
   }
   .doctor-detail {
     width: 369px;
-    margin-left: 25px;
+    margin-left: 20px;
   }
   .button {
     margin-left: 27px;
