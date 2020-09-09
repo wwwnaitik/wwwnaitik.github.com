@@ -6,11 +6,8 @@ body {
   flex-wrap: wrap;
 }
 .image {
-  width: 750px;
-  background-image: url(https://as1.ftcdn.net/jpg/01/13/63/82/500_F_113638213_3qT7Qun7u1l9rtsdSEZhY3CeDsc1rJNk.jpg);
-  background-color: red;
-  background-blend-mode: lighten;
-  background-size: cover;
+  width: 755px;
+  background-color: aliceblue;
 }
 .image2 img {
   height: 689px;
