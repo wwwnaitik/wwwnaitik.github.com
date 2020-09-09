@@ -12,9 +12,9 @@ body {
   justify-content: space-between;
 }
 .link img {
-  height: 57px;
   margin-left: 40px;
-  width: 227px;
+  /* width: 227px; */
+  margin-top: 10px;
 }
 
 .form-control {
@@ -72,7 +72,7 @@ body {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 31px;
-  margin-left: 119px;
+  margin: 31px auto;
 }
 .tagline {
   text-align: center;
@@ -163,7 +163,6 @@ body {
   }
   .doctor-detail {
     width: 369px;
-    margin-left: 20px;
   }
   .button {
     margin-left: 27px;

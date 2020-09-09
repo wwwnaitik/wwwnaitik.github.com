@@ -16,9 +16,9 @@ body {
   justify-content: space-between;
 }
 .link img {
-  height: 57px;
   margin-left: 40px;
-  width: 227px;
+  /* width: 227px; */
+  margin-top: 10px;
 }
 
 .form-control {
