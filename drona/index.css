@@ -56,7 +56,7 @@ body {
   width: 100px;
   border: 1px solid #eeeeee;
   border-radius: 50%;
-  margin-left: 607px;
+  margin: auto;
   margin-top: 18px;
 }
 .details {
@@ -126,7 +126,7 @@ body {
   background-color: #772386;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 115px;
+  margin: auto;
   padding-top: 12px;
   transition: 0.5s;
 }
@@ -158,14 +158,10 @@ body {
   .text {
     font-size: 28px;
   }
-  .image-border {
-    margin-left: 140px;
-  }
   .doctor-detail {
     width: 369px;
   }
   .button {
-    margin-left: 27px;
     width: 89%;
   }
 }
