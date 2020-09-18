@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  position: relative;
+  margin-left: 30pc;
+  margin-top: 10pc;
+}
+.beard {
+  width: 81px;
+  height: 60px;
+  border: solid 2px #435280;
+  /* border-color: transparent #435280; */
+  border-radius: 50%/93px 90px 0 0;
+  position: absolute;
+  transform: rotate(180deg);
+  left: 1px;
+  top: 91px;
+  background-color: #7c756f;
+  /* z-index: -1; */
+  /* background-color: #7D746F;*/
+}
+.man-face {
+  height: 120px;
+  width: 86px;
+  border-radius: 38%;
+  border: 1px solid black;
+}
+.left-eye-brow {
+  height: 5px;
+  width: 17px;
+  left: 51px;
+  border: 3px solid #475385;
+  background-color: #6d6c79;
+  position: absolute;
+  top: 30px;
+  border-radius: 17px;
+}
+.eye-brow {
+  height: 5px;
+  width: 17px;
+  left: 9px;
+  border: 3px solid #475385;
+  background-color: #6d6c79;
+  position: absolute;
+  border-radius: 17px;
+  top: 30px;
+}
+.first-eye {
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  background-color: black;
+
+  top: 53px;
+  position: absolute;
+  left: 18px;
+}
+.second-eye {
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  background-color: black;
+  top: 53px;
+  position: absolute;
+  left: 61px;
+}
+.first-glases {
+  height: 25px;
+  width: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top: 4px solid #47517e;
+  border-bottom: 1px solid #47517e;
+  border-right: 1px solid #47517e;
+  border-left: 1px solid #47517e;
+  position: absolute;
+  top: 42px;
+  left: 6px;
+}
+.second-glases {
+  height: 25px;
+  width: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top: 4px solid #47517e;
+  border-bottom: 1px solid #47517e;
+  border-right: 1px solid #47517e;
+  border-left: 1px solid #47517e;
+  position: absolute;
+  top: 42px;
+  left: 47px;
+}
+.center-line {
+  width: 31px;
+  height: 98px;
+  border: solid 2px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 47%/100px 100px 0 0;
+  position: absolute;
+  top: 37px;
+  left: 25px;
+}
+.nose {
+  width: 38px;
+  width: 26px;
+  height: 98px;
+  border: solid 2px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 43%/100px 100px 0 0;
+  position: absolute;
+  transform: rotate(180deg);
+  left: 27px;
+  top: -13px;
+}

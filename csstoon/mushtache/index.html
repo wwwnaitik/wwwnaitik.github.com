@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mustache"></div>
+  </body>
+</html>
+<style>
+  .mustache {
+    width: 16px;
+    height: 15px;
+    left: 350px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    margin: 20px;
+    box-shadow: 286px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
+  }
+  .mustache::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 40px;
+    height: 25px;
+    border-bottom: 20px solid currentColor;
+  }
+</style>

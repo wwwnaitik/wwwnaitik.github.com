@@ -8,16 +8,25 @@ body {
 .flex-container {
   background-color: #be3144;
   height: 70px;
-  /* padding: 5px; */
   width: 100%;
   display: flex;
   justify-content: space-between;
   position: fixed;
 }
 .logo {
-  padding: 10px;
+  display: flex;
+}
+.logo span {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 18px;
+  padding-left: 7px;
+}
+.img img {
+  width: 55px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 nav a {
   text-decoration: none;
@@ -27,6 +36,7 @@ nav a {
   padding: 50px 10px 25px 11px;
   padding-left: 10px;
   padding-right: 10px;
+  transition: 0.3s ease-in-out;
 }
 .nav {
   display: flex;
