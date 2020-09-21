@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var i;
+      var j;
+      var numOfRows;
+      var whiteSpaceInStar;
+      var starPerRow;
+      var maxStar;
+      var starStartPos;
+      var starEndPos;
+
+      numOfRows = 23;
+      maxStar = numOfRows * 3;
+      document.write("<center>");
+      console.log("center");
+
+      for (i = 0; i < numOfRows; i++) {
+        starPerRow = i + (i + 1);
+
+        whiteSpaceInStar = (maxStar - starPerRow) / 2;
+
+        starStartPos = whiteSpaceInStar + 1;
+
+        starEndPos = whiteSpaceInStar + starPerRow;
+
+        for (j = 0; j < maxStar; j++) {
+          if (j >= starStartPos && j <= starEndPos) {
+            document.write("*");
+            console.log("*");
+          } else {
+            document.write(" ");
+            console.log(" ");
+          }
+        }
+        document.write("<br/>");
+        console.log("<br/>");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
