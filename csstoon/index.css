@@ -153,41 +153,56 @@ body {
   border-radius: 25% 25% 60% 60%;
   background-color: rgb(235, 65, 65);
 }
-
-.left-moustache {
+.mustache {
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  width: 50px;
-  height: 20px;
-  background-color: #7d746e;
-  border-radius: 100% 0% 100% 0%;
-  bottom: 115px;
-  left: 335px;
-  border: 4px solid black;
-  transform: rotate(-5deg);
+  top: -147px;
+  left: 282px;
   z-index: 4;
 }
-
-.right-moustache {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.p2 {
+  width: 22px;
+  height: 22px;
+  left: 350px;
+  border-radius: 50%;
   position: absolute;
-  width: 50px;
+  color: black;
+  background-color: currentColor;
+  left: 85px;
+}
+.r2 {
+  width: 22px;
+  height: 22px;
+  left: 350px;
+  border-radius: 50%;
+  position: absolute;
+  color: black;
+  background-color: currentColor;
+  left: 100px;
+}
+.left {
+  position: absolute;
+  left: 111px;
+  top: -4px;
+  width: 35px;
   height: 20px;
-  background-color: #7d746e;
-  border-radius: 100% 0% 100% 0%;
-  bottom: 115px;
-  left: 378px;
-  border: 4px solid black;
-  transform: rotate(45deg);
-  z-index: 5;
+  border-bottom: solid 23px currentColor;
+  border-radius: 0 0 100%0;
+  transform: rotate(52deg);
+}
+.right {
+  position: absolute;
+  left: 64px;
+  top: -5px;
+  width: 35px;
+  height: 20px;
+  border-bottom: solid 23px currentColor;
+  border-radius: 0 0 0 100%;
+  transform: rotate(-56deg);
 }
 .nose {
   position: absolute;
-  bottom: 135px;
+  bottom: 144px;
   left: 371px;
   height: 42px;
   width: 26px;

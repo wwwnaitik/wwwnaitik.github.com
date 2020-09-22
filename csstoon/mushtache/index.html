@@ -1,32 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>mustache</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .body {
+      }
+      .mustache {
+        display: flex;
+        margin-top: 300px;
+      }
+      .p2 {
+        width: 18.5px;
+        height: 18.5px;
+        left: 350px;
+        border-radius: 50%;
+        position: absolute;
+        color: black;
+        background-color: currentColor;
+        left: 85px;
+      }
+      .r2 {
+        width: 18.5px;
+        height: 18.5px;
+        left: 350px;
+        border-radius: 50%;
+        position: absolute;
+        color: black;
+        background-color: currentColor;
+        left: 100px;
+      }
+      .left {
+        position: absolute;
+        left: 114px;
+        top: 289px;
+        width: 20px;
+        height: 20px;
+        border-bottom: solid 18px currentColor;
+        border-radius: 0 0 100%0;
+        transform: rotate(45deg);
+      }
+      .right {
+        position: absolute;
+        left: 69px;
+        top: 289px;
+        width: 20px;
+        height: 20px;
+        border-bottom: solid 18px currentColor;
+        border-radius: 0 0 0 100%;
+        transform: rotate(-40deg);
+      }
+    </style>
   </head>
   <body>
-    <div class="mustache"></div>
+    <div class="mustache">
+      <div class="p2"></div>
+      <div class="r2"></div>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
   </body>
 </html>
-<style>
-  .mustache {
-    width: 16px;
-    height: 15px;
-    left: 350px;
-    border-radius: 50%;
-    position: absolute;
-    color: black;
-    margin: 20px;
-    box-shadow: 286px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
-  }
-  .mustache::before {
-    content: "";
-    position: absolute;
-    left: 30px;
-    top: 120px;
-    width: 40px;
-    height: 25px;
-    border-bottom: 20px solid currentColor;
-  }
-</style>
