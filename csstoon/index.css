@@ -167,7 +167,7 @@ body {
   border-radius: 50%;
   position: absolute;
   color: black;
-  background-color: currentColor;
+  background-color: #333;
   left: 85px;
 }
 .r2 {
@@ -177,7 +177,7 @@ body {
   border-radius: 50%;
   position: absolute;
   color: black;
-  background-color: currentColor;
+  background-color: #333;
   left: 100px;
 }
 .left {
@@ -186,7 +186,7 @@ body {
   top: -4px;
   width: 35px;
   height: 20px;
-  border-bottom: solid 23px currentColor;
+  border-bottom: solid 23px #333;
   border-radius: 0 0 100%0;
   transform: rotate(52deg);
 }
@@ -196,7 +196,7 @@ body {
   top: -5px;
   width: 35px;
   height: 20px;
-  border-bottom: solid 23px currentColor;
+  border-bottom: solid 23px #333;
   border-radius: 0 0 0 100%;
   transform: rotate(-56deg);
 }
