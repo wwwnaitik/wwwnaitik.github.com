@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="loop()">click here</button>
+    <script>
+      function loop() {
+        var input;
+        var largeNumber;
+
+        for (input = 1; input <= 15; input++) {
+          document.write("<br>");
+          if (input % 2 == 0) {
+            document.write(`${input}   number is even`);
+          } else {
+            document.write(input, "   number is odd");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
