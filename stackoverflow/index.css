@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+  height: 60px;
+  border: 1px solid #000;
+  display: flex;
+}
+.logo {
+  height: 60px;
+}
+.logo img {
+  height: 45px;
+  width: 190px;
+  margin: 1px 0 0 93px;
+}
+.logo :hover {
+  background-color: grey;
+}
+.image {
+  background-color: #ffcf10;
+  background-image: url(https://cdn.sstatic.net/Img/home/illo-hero-full.svg?v=e2018a5f9272);
+  background-position: top center;
+  height: 500px;
+  width: 100%;
+}
+nav {
+  margin-top: 25px;
+}
+.navigation nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+.image1 img {
+  display: none;
+}
+#box {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 10px 10px 10px;
+  height: 36px;
+  width: 44%;
+}
+.icon i {
+  display: none;
+}
+.button button {
+  height: 40px;
+  width: 77px;
+  margin: 10px 10px 10px 10px;
+}
+.button button:hover {
+  background-color: #e1ecf4;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+#bu {
+  height: 40px;
+  width: 77px;
+  margin: 10px 10px 0px 10px;
+  background-color: #0077cc;
+  color: white;
+  border: 1px solid #000;
+}
+#bu:hover {
+  background-color: #e1ecf4;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.image2 {
+  display: none;
+}
+#input {
+  display: none;
+}
+.background img {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logo img {
+    display: none;
+  }
+  .image1 img {
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+  #atag {
+    display: none;
+  }
+  #box {
+    display: none;
+  }
+  .icon i {
+    display: block;
+    font-size: 26px;
+    color: gray;
+    margin-top: 17px;
+    margin-left: 6px;
+  }
+  .image {
+    background-image: url(https://cdn.sstatic.net/Img/home/illo-hero-small.svg?v=884735d21ea5);
+  }
+  .input-box {
+    padding-top: 10px;
+    background-color: #dedede;
+    height: 44px;
+  }
+  .fa-placholder {
+    font-family: "FontAwesome", "Source Sans Pro";
+  }
+  .background img {
+    height: 20px;
+    width: 21px;
+    position: absolute;
+    top: 79px;
+    left: 12px;
+    display: block;
+  }
+  #input {
+    width: 84%;
+    height: 27px;
+    margin-left: calc(10% - 27px);
+    display: block;
+    padding-left: 33px;
+  }
+}
