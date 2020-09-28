@@ -6,8 +6,46 @@
     <title>Document</title>
   </head>
   <body>
+    <button id="button" onclick="detail()">
+      Click here for my friend detail
+    </button>
     <script>
-      var students = { name: "John", age: 31, city: "New York" },{name: "John", age: 31, city: "New York"};
+      function detail() {
+        var names = [
+          {
+            name: "Naitik",
+            age: 11,
+            profession: "Student",
+          },
+          {
+            name: "yash",
+            age: 12,
+            profession: "student",
+          },
+          {
+            name: "aatish",
+            age: 16,
+            profession: "student",
+          },
+        ];
+        var i;
+        var j;
+        for (i = 0; i <= names.length - 1; i++) {
+          document.write("<br>");
+          document.write("<h1>My friends detail-</h1>");
+          document.write(
+            "  Name: " + names[i].name,
+            "<br>",
+            "  Age: " + names[i].age,
+            "<br>",
+            "  Profession: " + names[i].profession,
+            "<br>"
+          );
+        }
+      }
     </script>
+    <button>
+      <a href="1.jpg" target="_blank">click here for looking flow chart</a>
+    </button>
   </body>
 </html>
