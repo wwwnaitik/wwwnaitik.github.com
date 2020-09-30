@@ -298,6 +298,7 @@ nav {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+  display: flex;
 }
 .parent-of-box {
   display: flex;
@@ -305,6 +306,17 @@ nav {
   /* margin-top: 60px; */
   width: 86%;
   margin: 30px auto;
+}
+.inner-box img {
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-right: 10px;
+}
+.text-box {
+  margin: auto 10px auto auto;
+}
+.text-box span {
+  color: orange;
 }
 
 @media (max-width: 900px) {
@@ -382,5 +394,12 @@ nav {
   }
   #section {
     display: block;
+  }
+  .parent-of-box {
+    display: block;
+  }
+  .inner-box {
+    width: auto;
+    margin: inherit;
   }
 }
