@@ -102,6 +102,8 @@ nav {
 }
 .buttons {
   margin-top: 28px;
+  display: flex;
+  justify-content: center;
 }
 #firstbutton {
   color: orangered;
@@ -110,12 +112,11 @@ nav {
   text-decoration: none;
   font-size: 14px;
   border-radius: 4px;
-  margin-left: 38%;
-  margin-right: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-right: 20px;
 }
 #secondbutton {
   text-decoration: none;
@@ -180,8 +181,7 @@ nav {
   width: 150px;
   background-color: darkblue;
   border-radius: 3px;
-  margin-left: 90px;
-  margin-top: 20px;
+  margin: 20px auto;
   padding-top: 15px;
   text-align: center;
 }
@@ -218,8 +218,7 @@ nav {
   width: 150px;
   background-color: orange;
   border-radius: 3px;
-  margin-left: 90px;
-  margin-top: 20px;
+  margin: 20px auto;
   padding-top: 15px;
   text-align: center;
 }
@@ -256,8 +255,7 @@ nav {
   width: 150px;
   background-color: darkblue;
   border-radius: 3px;
-  margin-left: 90px;
-  margin-top: 20px;
+  margin: 20px auto;
   padding-top: 15px;
   text-align: center;
 }
@@ -325,7 +323,7 @@ nav {
     display: none;
   }
   #firstbutton {
-    margin-left: 8%;
+    margin-right: 20px;
   }
   .icon i {
     display: block;
@@ -371,15 +369,15 @@ nav {
     margin: auto;
   }
   .boxes {
-    margin-left: 20px;
+    margin: 22px auto;
     width: 280px;
   }
   .boxes-2 {
-    margin-left: 20px;
+    margin: 22px auto;
     width: 280px;
   }
   .boxes-3 {
-    margin-left: 20px;
+    margin: 22px auto;
     width: 280px;
   }
   #section {
