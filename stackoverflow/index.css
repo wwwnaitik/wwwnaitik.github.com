@@ -318,6 +318,129 @@ nav {
 .text-box span {
   color: orange;
 }
+.fourth-part {
+  background-color: darkslateblue;
+  height: 1150px;
+  width: 100%;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
+  background-size: contain;
+}
+.headline-3 {
+  padding-top: 84px;
+  text-align: center;
+}
+.headline-3 h1 {
+  font-size: 31px;
+  color: #fff;
+}
+.headline-4 {
+  margin-top: -23px;
+  text-align: center;
+}
+.headline-4 h1 {
+  font-size: 31px;
+  color: #fff;
+}
+.tag-under {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 480px;
+  font-size: 21px;
+  padding-left: 32%;
+  color: #fff;
+  padding-top: 24px;
+}
+.button-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+#button {
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+.box-box-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 40px auto;
+}
+.white-box {
+  height: 600px;
+  width: 310px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.basic {
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 20px;
+  background-color: #e9e9e9;
+}
+.Business {
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 20px;
+  background-color: #2f2f2f;
+  color: white;
+}
+.Enterprise {
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 20px;
+  background-color: darkslateblue;
+  color: white;
+}
+.text-box {
+  margin-left: 10%;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.headline-box {
+  margin-left: 10%;
+}
+.headline-box h1 {
+  font-size: 34px;
+  opacity: 0.9;
+}
+.smalltag {
+  color: #858585;
+  font-size: 15px;
+  margin-left: 8%;
+  margin-top: -23px;
+}
+.line {
+  height: 1px;
+  width: 80%;
+  background: #e9e9e9;
+  margin-left: -1px;
+}
 
 @media (max-width: 900px) {
   .logo img {
@@ -401,5 +524,17 @@ nav {
   .inner-box {
     width: auto;
     margin: inherit;
+  }
+  .tag-under {
+    padding-left: 0%;
+    width: auto;
+  }
+  .box-box-2 {
+    display: block;
+    width: 75%;
+    margin: 8%;
+  }
+  .fourth-part {
+    height: auto;
   }
 }
