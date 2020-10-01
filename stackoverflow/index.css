@@ -10,15 +10,15 @@ body {
   background-color: white;
   width: 100%;
   z-index: 1000;
-  border: 1px solid black;
+  border-top: 3px solid #f48024;
 }
 .logo {
   height: 60px;
 }
 .logo img {
-  height: 45px;
-  width: 190px;
-  margin: 1px 0 0 78px;
+  height: 37px;
+  width: 160px;
+  margin: 3px 0 0 78px;
 }
 .logo :hover {
   background-color: grey;
@@ -31,7 +31,7 @@ body {
   width: 100%;
 }
 nav {
-  margin-top: 19px;
+  margin-top: 16px;
 }
 .navigation nav a {
   color: #000;
@@ -312,15 +312,15 @@ nav {
   margin-top: 0%;
   margin-right: 10px;
 }
-.text-box {
+.text-box-1 {
   margin: auto 10px auto auto;
 }
-.text-box span {
+.text-box-1 span {
   color: orange;
 }
 .fourth-part {
   background-color: darkslateblue;
-  height: 1150px;
+  height: 1250px;
   width: 100%;
   background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
   background-size: contain;
@@ -435,11 +435,127 @@ nav {
   margin-left: 8%;
   margin-top: -23px;
 }
-.line {
+.line-box {
   height: 1px;
   width: 80%;
   background: #e9e9e9;
-  margin-left: -1px;
+  margin-left: 8%;
+  margin-top: 26px;
+}
+.line-box-2 {
+  height: 1px;
+  width: 80%;
+  background: #000;
+  margin-left: 8%;
+  margin-top: 26px;
+}
+.icon-text {
+  display: flex;
+  margin-top: 15px;
+}
+.icon-text i {
+  margin-left: 8%;
+  margin-top: 30px;
+}
+.icon-text p {
+  margin-top: 32px;
+  margin-left: 11px;
+  font-size: 14px;
+}
+svg {
+  margin-left: 8%;
+}
+.icon-text span {
+  margin-left: 16px;
+}
+.button-first {
+  background-color: #919191;
+  height: 35px;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 8%;
+  text-align: center;
+  margin-top: 50%;
+  transition: 0.2s ease-in-out;
+  padding-top: 13px;
+}
+.button-first:hover {
+  background-color: #0064bd;
+  color: #f7f6f9;
+}
+.button-second {
+  background-color: #242729;
+  height: 35px;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 8%;
+  text-align: center;
+  margin-top: 54%;
+  transition: 0.2s ease-in-out;
+  padding-top: 13px;
+  color: #f7f6f9;
+}
+.button-second:hover {
+  background-color: #0064bd;
+  color: #f7f6f9;
+}
+.button-third {
+  background-color: darkslateblue;
+  height: 35px;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 8%;
+  text-align: center;
+  margin-top: 12%;
+  transition: 0.2s ease-in-out;
+  padding-top: 13px;
+  color: #f7f6f9;
+}
+.button-third:hover {
+  background-color: #0064bd;
+  color: #f7f6f9;
+}
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.down-text-2 {
+  display: flex;
+}
+.text-down {
+  color: darkgray;
+  margin-left: 8px;
+  width: 207px;
+  margin-top: 21px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.text-image {
+  margin-left: 19%;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/endorsements/g2.svg?v=670bf9279910);
+  margin-top: 20px;
+  height: 26px;
+  width: 26px;
+}
+.text-image-2 {
+  margin-left: 29%;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/endorsements/g2.svg?v=670bf9279910);
+  margin-top: 20px;
+  height: 26px;
+  width: 26px;
+}
+.text-image-3 {
+  margin-left: 0%;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/endorsements/fastco.svg?v=5ebc802a76c7);
+  margin-top: 20px;
+  height: 20px;
+  width: 149px;
+  background-size: cover;
+}
+.text-down:hover {
+  color: #fff;
 }
 
 @media (max-width: 900px) {
@@ -537,5 +653,13 @@ nav {
   .fourth-part {
     height: auto;
     margin-top: 370px;
+  }
+  .parent-div {
+    display: block;
+    width: 100%;
+  }
+  .text-image-3 {
+    width: 174px;
+    margin-left: 16%;
   }
 }
