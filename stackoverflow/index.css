@@ -869,6 +869,7 @@ svg {
   }
   .a-box {
     width: 80%;
+    margin: auto;
   }
   .seventh-container {
     display: block;
