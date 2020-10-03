@@ -719,7 +719,7 @@ svg {
   height: 302px;
   display: flex;
 }
-svg {
+.svg-photo svg {
   padding-top: 20px;
   margin-right: 40px;
   margin-left: 70px;
@@ -756,6 +756,9 @@ li:hover {
 @media (max-width: 1010px) {
   .parent-div {
     margin: unset;
+  }
+  .written {
+    display: block;
   }
 }
 @media (max-width: 900px) {
@@ -919,11 +922,18 @@ li:hover {
     margin-top: 20px;
   }
   .eighth-part {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
   }
   .written div {
     margin-left: 5px;
     margin-bottom: 25px;
+  }
+  .svg-photo svg {
+    margin-right: 130px;
+  }
+  .a1-part-down h5 {
+    margin-left: 27px;
   }
 }
