@@ -677,6 +677,7 @@ svg {
   padding-left: 70px;
   background-color: #e1ecf4;
   padding-bottom: 100px;
+  margin-top: 5pc;
 }
 .seventh-part h1 {
   color: #242729;
@@ -711,6 +712,45 @@ svg {
   margin-top: 15px;
   color: #fff;
   font-size: 15px;
+}
+.eighth-part {
+  background-color: #242729;
+  color: #a0a0a0fa;
+  height: 302px;
+  display: flex;
+}
+svg {
+  padding-top: 20px;
+  margin-right: 40px;
+  margin-left: 70px;
+}
+.a1-part-down h5 {
+  font-size: 16px;
+}
+.a2-part-down {
+  margin-left: 30px;
+}
+.a2-part-down h5 {
+  font-size: 16px;
+}
+li {
+  font-size: 13px;
+  list-style: none;
+  padding: 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+li:hover {
+  color: #fff;
+}
+.written {
+  display: flex;
+  margin-left: 25px;
+}
+.written div {
+  margin-right: 11px;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 27px;
 }
 
 @media (max-width: 1010px) {
@@ -877,5 +917,13 @@ svg {
   .seventh-box {
     width: 70%;
     margin-top: 20px;
+  }
+  .eighth-part {
+    display: block;
+    height: auto;
+  }
+  .written div {
+    margin-left: 5px;
+    margin-bottom: 25px;
   }
 }
