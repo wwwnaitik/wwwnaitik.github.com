@@ -319,7 +319,7 @@ nav {
 }
 .fourth-part {
   background-color: darkslateblue;
-  height: 1250px;
+  height: 1350px;
   width: 100%;
   background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
   background-size: contain;
@@ -357,10 +357,10 @@ nav {
 #button {
   text-decoration: none;
   font-size: 14px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
   border-radius: 4px;
   color: white;
   background-color: orangered;
@@ -373,10 +373,11 @@ nav {
   margin: 40px auto;
 }
 .white-box {
-  height: 600px;
+  height: auto;
   width: 310px;
   background-color: #fff;
   border-radius: 5px;
+  padding-bottom: 20px;
 }
 .basic {
   height: 30px;
@@ -556,7 +557,167 @@ svg {
 .text-down:hover {
   color: #fff;
 }
+#fourth-container {
+  background-color: #f7f6f9;
+}
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.text-all {
+  display: flex;
+  background-color: #f7f6f9;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fourth-container h4 {
+  font-size: 28px;
+  color: #242729;
+  margin: 15px 0px 0px;
+}
+.fourth-container p {
+  font-size: 15px;
+}
+.button-h1 {
+  width: 40%;
+  text-align: center;
+  background-color: #f48024;
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+.box-in {
+  width: 501px;
+  padding-bottom: 31px;
+}
+.fifth-part h1 {
+  font-size: 29px;
+  color: #242729;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 24px;
+}
+.box-small {
+  margin-bottom: 35px;
+  display: flex;
+  padding: 15px 7px;
+  width: 200px;
+  margin: auto;
+}
+.box-small:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09), 0 2px 6px rgba(0, 0, 0, 0.09),
+    0 3px 8px rgba(0, 0, 0, 0.19);
+}
 
+.box-small p {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.box-small-2 {
+  display: none;
+}
+.whole {
+  display: flex;
+  justify-content: center;
+}
+.box-small-3 {
+  margin-bottom: 35px;
+  display: flex;
+  padding: 15px 7px;
+  width: 200px;
+  margin: auto;
+}
+.box-small-3:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09), 0 2px 6px rgba(0, 0, 0, 0.09),
+    0 3px 8px rgba(0, 0, 0, 0.19);
+}
+
+.box-small-3 p {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.middle img {
+  width: 501px;
+}
+#h1 {
+  padding-top: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+.sixth-part {
+  width: 90%;
+  margin: auto;
+}
+#h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.1538461rem;
+  padding-top: 20px;
+}
+.sixth-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.a-box {
+  width: 20%;
+  text-align: start;
+}
+.a-box h4 {
+  padding: 16px 0px;
+}
+.a-box p {
+  font-size: 13.88px;
+}
+.seventh-part {
+  padding-top: 150px;
+  padding-left: 70px;
+  background-color: #e1ecf4;
+  padding-bottom: 100px;
+}
+.seventh-part h1 {
+  color: #242729;
+}
+.seventh-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 98%;
+}
+.seventh-box {
+  display: flex;
+  width: 18%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09), 0 2px 6px rgba(0, 0, 0, 0.09),
+    0 3px 8px rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.seventh-text {
+  padding-top: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.seventh-button {
+  border-radius: 5px;
+  background-color: #f48024;
+  text-align: center;
+  padding: 10px;
+  height: 23px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (max-width: 1010px) {
+  .parent-div {
+    margin: unset;
+  }
+}
 @media (max-width: 900px) {
   .logo img {
     display: none;
@@ -660,5 +821,60 @@ svg {
   .text-image-3 {
     width: 174px;
     margin-left: 16%;
+  }
+  .fourth-container {
+    display: block;
+  }
+  .box-in {
+    width: auto;
+    margin-left: 10%;
+  }
+  .fourth-container p {
+    font-size: 15px;
+    width: auto;
+  }
+  .box-small-2 {
+    display: block;
+  }
+  .whole {
+    display: block;
+  }
+  .box-small-3 {
+    display: none;
+  }
+  .box-small-2 {
+    margin-bottom: 35px;
+    display: flex;
+    padding: 15px 7px;
+    width: 200px;
+    margin: auto;
+  }
+  .box-small-2:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09), 0 2px 6px rgba(0, 0, 0, 0.09),
+      0 3px 8px rgba(0, 0, 0, 0.19);
+  }
+
+  .box-small-2 p {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .something {
+    display: flex;
+  }
+  .middle img {
+    width: 350px;
+  }
+  .sixth-container {
+    display: block;
+  }
+  .a-box {
+    width: 80%;
+  }
+  .seventh-container {
+    display: block;
+  }
+  .seventh-box {
+    width: 70%;
+    margin-top: 20px;
   }
 }
