@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -66px;
+}
+
+.links li {
+  list-style: none;
+  border: 1px solid #cccccc;
+  border-radius: 26px;
+  padding: 20px;
+  width: 355px;
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 90px;
+  background-color: #0064bd;
+  opacity: 0.9;
+  transition: 0.3s;
+  text-align: center;
+}
+.links li:hover {
+  background-color: #ffa500;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#class {
+  padding-top: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Find the largest</h1>
+    <h3>Type the numbers here</h3>
+    <script>
+      function largest() {
+        var n = document.getElementById("num").value;
+        var i = document.getElementById("num2").value;
+        var j = document.getElementById("num3").value;
+        var m = document.getElementById("num4").value;
+        var largestnumber;
+        //---------firstnumber----------\\
+        if (n > i) {
+          largestnumber = n;
+        } else {
+          largestnumber = i;
+        }
+        if (n > j) {
+          largestnumber = n;
+        } else {
+          largestnumber = j;
+        }
+        if (n > m) {
+          largestnumber = n;
+        } else {
+          largestnumber = m;
+        }
+        //----------secondnumber---------\\
+        if (i > n) {
+          largestnumber = i;
+        } else {
+          largestnumber = n;
+        }
+        if (i > j) {
+          largestnumber = i;
+        } else {
+          largestnumber = j;
+        }
+        if (i > m) {
+          largestnumber = i;
+        } else {
+          largestnumber = m;
+        }
+        //---------thirdnumber---------\\
+        if (j > n) {
+          largestnumber = j;
+        } else {
+          largestnumber = n;
+        }
+        if (j > i) {
+          largestnumber = j;
+        } else {
+          largestnumber = i;
+        }
+        if (j > m) {
+          largestnumber = j;
+        } else {
+          largestnumber = m;
+        }
+        //-------fourthnumber-------//
+        if (m > n) {
+          largestnumber = m;
+        } else {
+          largestnumber = n;
+        }
+        if (m > i) {
+          largestnumber = m;
+        } else {
+          largestnumber = i;
+        }
+        if (m > j) {
+          largestnumber = m;
+        } else {
+          largestnumber = j;
+        }
+
+        document.write(largestnumber);
+      }
+
+      // largest();
+    </script>
+    <button onclick="largest()">largest number</button>
+    <input type="text" id="num" placeholder="1number" />
+    <input type="text" id="num2" placeholder="2number" />
+    <input type="text" id="num3" placeholder="3number" />
+    <input type="text" id="num4" placeholder="4number" />
+  </body>
+</html>
