@@ -8,10 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     secondPlayer();
     var box = document.querySelector(".block");
     function secondPlayer() {
-      //   if ((box.innerHTML = " ")) {
       firstplayer = firstplayer === "X" ? "O" : "X";
       event.target.innerHTML = firstplayer;
-      //   }
     }
   }
 });

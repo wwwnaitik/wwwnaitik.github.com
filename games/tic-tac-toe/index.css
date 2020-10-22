@@ -8,29 +8,33 @@ body {
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
 }
-.boxes {
+.game {
   display: flex;
   margin: auto;
   width: 400px;
   padding: 100px 0px 0px 105px;
   flex-wrap: wrap;
 }
-.boxes div {
-  height: 100px;
+.game div {
+  height: 110px;
   width: 100px;
   background-color: #000;
   border: 1px solid white;
-  transition: 0.5s;
+  transition: 0.3s;
   color: wheat;
   font-size: 50px;
-  text-align: center;
-  padding-top: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-.boxes div:hover {
+.game div:hover {
   background-color: rgb(26, 25, 25);
 }
 h1 {
   margin-top: 0px;
   padding-top: 50px;
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
