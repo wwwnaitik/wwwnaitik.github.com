@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("restart").addEventListener("click", a);
+  document.getElementById("restart").addEventListener("click", restartTheGame);
   document.getElementById("game").addEventListener("click", startGame);
   const winningTypes = [
     [0, 1, 2],
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let whoIsWinner = "";
   var currentPlayer = "X";
 
-  function a() {
+  function restartTheGame() {
     var blocks = document.getElementsByClassName("block");
     var winline = (document.getElementById("over").innerHTML = "");
     whoIsWinner = "";
