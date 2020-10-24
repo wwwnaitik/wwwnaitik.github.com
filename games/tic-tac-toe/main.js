@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("restart").addEventListener("click", a);
   document.getElementById("game").addEventListener("click", startGame);
   const winningTypes = [
     [0, 1, 2],
@@ -11,9 +12,24 @@ document.addEventListener("DOMContentLoaded", function () {
     [0, 4, 8],
     [6, 4, 8],
   ];
+
   fillingState = ["", "", "", "", "", "", "", "", ""];
   let whoIsWinner = "";
   var currentPlayer = "X";
+
+  function a() {
+    var blocks = document.getElementsByClassName("block");
+    var winline = (document.getElementById("over").innerHTML = "");
+    whoIsWinner = "";
+    console.log(blocks);
+    [].slice.call(blocks).forEach((div) => {
+      div.innerHTML = "";
+    });
+
+    for (i = 0; i < fillingState.length - 1; i++) {
+      fillingState[i] = "";
+    }
+  }
   function startGame(event) {
     secondPlayer();
     function secondPlayer() {
@@ -38,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   function writtenclicked() {
     let boxFilled = fillingState.filter((element) => {
-      element.trim();
       return element != "";
     });
     console.log("boxFilled " + boxFilled);
@@ -52,15 +67,13 @@ document.addEventListener("DOMContentLoaded", function () {
       let a = fillingState[element[0]];
       let b = fillingState[element[1]];
       let c = fillingState[element[2]];
-      console.log("pri9ntingabc");
-      console.log("a:" + a + "b:" + b + "c:" + c);
       if (a === "" || b === "" || c === "") {
         continue;
       }
       if (a === b && b === c) {
         whoIsWinner = a;
-        document.getElementById("over").innerHTML =
-          whoIsWinner + " has won the game";
+        var winLine = (document.getElementById("over").innerHTML =
+          whoIsWinner + " has won the game");
         break;
       }
     }

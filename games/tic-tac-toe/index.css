@@ -1,13 +1,12 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
-}
-.full {
   height: 781px;
-  width: 100%;
+
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
 }
+
 .game {
   display: flex;
   margin: auto;
@@ -37,4 +36,18 @@ h1 {
 }
 h2 {
   text-align: center;
+}
+#restart {
+  margin: auto;
+  height: 28px;
+  width: 110px;
+  background-color: black;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 0 0 0;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
 }
