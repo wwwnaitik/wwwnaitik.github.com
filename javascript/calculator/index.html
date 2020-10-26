@@ -2,59 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script>
-      {
-        var op = "+,-,*,/";
-        var num1, num2;
-
-        var num1 = prompt("please enter a number :");
-        var num2 = prompt("please enter another a number :");
-
-        var op = prompt("please enter a oprator i.e.+,-,*,/ :");
-
-        // Switch statement begins
-
-        switch (op) {
-          // If user enter +
-
-          case "+":
-            document.write(parseInt(num1) + parseInt(num2));
-
-            break;
-
-          // If user enter -
-
-          case "-":
-            document.write(num1 - num2);
-
-            break;
-
-          // If user enter *
-
-          case "*":
-            document.write(num1 * num2);
-
-            break;
-
-          // If user enter /
-
-          case "/":
-            document.write(num1 / num2);
-
-            break;
-
-            //If user enter %
-
-            if (false) {
-              document.write("Error! operator is not correct");
-            }
-
-            break;
-        }
-      }
-    </script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="second.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="calculator">
+      <div class="write"></div>
+      <button class="number1" onclick="printNumber() ">1</button>
+      <button class="number2">2</button>
+      <button class="number3">3</button>
+      <button class="number4">4</button>
+      <button class="number5">5</button>
+      <button class="number6">6</button>
+      <button class="number7">7</button>
+      <button class="number8">8</button>
+      <button class="number9">9</button>
+      <button class="number0">0</button>
+    </div>
+  </body>
 </html>

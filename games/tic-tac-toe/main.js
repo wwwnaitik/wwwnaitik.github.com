@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function restartTheGame() {
     var blocks = document.getElementsByClassName("block");
-    var winline = (document.getElementById("over").innerHTML = "");
+    document.getElementById("over").innerHTML = "";
     whoIsWinner = "";
     console.log(blocks);
     [].slice.call(blocks).forEach((div) => {
