@@ -1,0 +1,81 @@
+1. basic things - variables, operators, data types, loops, conditions
+2. Functions - 
+2a. Function
+2b. Anoynomous functions
+2c. Callback functions  -> calling a function inslide the argument of another function 
+2d. arrow functions
+
+3. var let and const
+4. Scope
+4a - Global scope
+4b - Function scope
+4c - Block scope
+
+
+5. Event propagation  - Yash singh
+5a. Event bubbling
+5b. Event capturing
+5c. Event target/ event current target
+
+
+
+6. High order functions -> Pooja
+
+--- filter, reduce, map, forEach
+
+7. Coercion -> 
+
+let hasStates = 
+
+
+ document.getElementById("game").addEventListener("click", () => {
+/////////
+})
+
+
+
+
+hello = function () {
+  return "Hello World!";
+}
+
+hello = (x) => {
+
+let hi = x
+return hi
+
+};
+
+
+
+VAR and let
+
+
+let is a block scope variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hello("hi rakesh");

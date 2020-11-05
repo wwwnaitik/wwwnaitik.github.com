@@ -22,6 +22,12 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.parent {
+  height: 350px;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
 .number {
   width: 77%;
@@ -38,23 +44,107 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#buttonClear {
+  width: 32.5%;
+  border: 1px solid #aaaca9;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .buttonNumber:hover {
   background-color: #acacac;
 }
 .equal {
-  /* width: 30%; */
+  width: 25%;
   background-color: #f98a6a;
-  font-size: 25px;
-  position: absolute;
-  height: 280px;
-  width: 80px;
-  /* float: left; */
-  left: 765px;
-  border-bottom-right-radius: 10px;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 25px;
+  /* padding-top: 120px; */
+}
+.equal:hover {
+  background-color: #e96d4b;
+}
+.operation {
+  height: 50px;
+  background-color: #eaece9;
+  display: flex;
+}
+.allOpration {
+  width: 100px;
+  height: 78%;
+  border: 1px solid #aaaca9;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.calculator {
+  width: 68%;
+  margin: auto;
+  background-color: #242424;
+  height: auto;
+  border-radius: 10px;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+#write {
+  width: 100%;
+  background-color: #242424;
+  height: 100px;
+  text-align: end;
+  font-size: 25px;
+  color: beige;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.parent {
+  height: 350px;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.number {
+  width: 77%;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonNumber {
+  width: 32.5%;
+  border: 1px solid #aaaca9;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#buttonClear {
+  width: 32.5%;
+  border: 1px solid #aaaca9;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buttonNumber:hover {
+  background-color: #acacac;
+}
+.equal {
+  width: 25%;
+  background-color: #f98a6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  /* padding-top: 120px; */
 }
 .equal:hover {
   background-color: #e96d4b;

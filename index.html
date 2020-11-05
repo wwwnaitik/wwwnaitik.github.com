@@ -1,225 +1,251 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Myportfolio</title>
-    <link href="style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <script>
-      function openNav() {
-        var nav = document.querySelector(".flex-nav-mobile");
-        var icon = document.querySelector(".nav-icon i");
-       
-        if (nav.style.display == 'block') {
-          nav.style.display = 'none';
-          icon.classList.remove('fa-close');
-          icon.classList.add('fa-bars');
-        } else {
-          nav.style.display = 'block';
-          icon.classList.remove('fa-bars');
-          icon.classList.add('fa-close');
-        }
+
+<head>
+  <title>Myportfolio</title>
+  <link href="style.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <script>
+    function openNav() {
+      var nav = document.querySelector(".flex-nav-mobile");
+      var icon = document.querySelector(".nav-icon i");
+
+      if (nav.style.display == 'block') {
+        nav.style.display = 'none';
+        icon.classList.remove('fa-close');
+        icon.classList.add('fa-bars');
+      } else {
+        nav.style.display = 'block';
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-close');
       }
-    </script>
-  </head>
-  <body>
-    <div class="filtershot">
-      <header>
-        <div class="flex-container">
-          <div class="logo">
-            <div class="img">
+    }
+  </script>
+</head>
+
+<body>
+  <div class="filtershot">
+    <header>
+      <div class="flex-container">
+        <div class="logo">
+          <div class="img">
             <img src="https://i.pinimg.com/originals/0f/8b/28/0f8b2870896edcde8f6149fe2733faaf.jpg">
           </div>
-            <span>Code with Naitik</span> 
+          <span>Code with Naitik</span>
+        </div>
+        <div>
+          <nav class="flex-nav">
+            <a href="#">About</a>
+            <a href="#P4">Work</a>
+            <a href="#L4">Contact</a>
+          </nav>
+          <div class="nav-icon">
+            <i class="fa fa-bars" onclick="openNav()"></i>
           </div>
-          <div>
-            <nav class="flex-nav">
-              <a href="#">About</a>
-              <a href="#P4">Work</a>
-              <a href="#L4">Contact</a>
-            </nav>
-            <div class="nav-icon">
-              <i class="fa fa-bars" onclick="openNav()"></i>
+        </div>
+      </div>
+
+      <nav class="flex-nav-mobile">
+        <a href="#">About</a>
+        <a href="#P4">Work</a>
+        <a href="#L4">Contact</a>
+      </nav>
+    </header>
+    <section>
+      <div class="flex-hero">
+        <div>
+          <h1>Hey I am Naitik</h1>
+          <span class="tagline"><em>a student</em></span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="P4" class="photos">
+        <div>
+          <h4>These are some of my Projects</h4>
+          <br />
+          <div class="gallery">
+
+            <div class="box">
+              <a href="games/tic-tac-toe/">
+                <img src="image/3434343.png" />
+
+                <div class="boxheading">
+                  <span class="code">
+                    < </span>
+                      <a href="stackoverflow/index.html" target="_blank">Tic-tac-toe</a>
+                      <span class="code"> /> </span>
+                </div>
+              </a>
             </div>
-          </div>
-        </div>
-       
-        <nav class="flex-nav-mobile">
-          <a href="#">About</a>
-          <a href="#P4">Work</a>
-          <a href="#L4">Contact</a>
-        </nav>
-      </header>
-      <section>
-        <div class="flex-hero">
-          <div>
-            <h1>Hey I am Naitik</h1>
-            <span class="tagline"><em>a student</em></span>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div id="P4" class="photos">
-          <div>
-            <h4>These are some of my Projects</h4>
-            <br />
-            <div class="gallery">
 
-
-              <div class="box">
-                <a href="stackoverflow/index.html">
+            <div class="box">
+              <a href="stackoverflow/index.html">
                 <img src="image/Screenshot (492).png" />
                 <a href="stackoverflow/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="stackoverflow/index.html" target="_blank">stackoverflow clone</a> 
-                  <span class="code"> /> </span>
-                </div>
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="stackoverflow/index.html" target="_blank">stackoverflow clone</a>
+                        <span class="code"> /> </span>
+                  </div>
                 </a>
-                </a>
-              </div>
+              </a>
+            </div>
 
-              <div class="box">
-                <a href="javascript/index.html">
+            <div class="box">
+              <a href="javascript/index.html">
                 <img src="image/Screenshot (491).png" />
                 <a href="javascript/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="javascript/index.html" target="_blank">Javascript home page</a> 
-                  <span class="code"> /> </span>
-                </div>
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="javascript/index.html" target="_blank">Javascript home page</a>
+                        <span class="code"> /> </span>
+                  </div>
                 </a>
-                </a>
-              </div>
+              </a>
+            </div>
 
-              <div class="box">
-                <a href="csstoon/index.html">
+            <div class="box">
+              <a href="csstoon/index.html">
                 <img src="image/csstoon.png" />
                 <a href="csstoon/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="csstoon/index.html" target="_blank">Csstoon</a> 
-                  <span class="code"> /> </span>
-                </div>
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="csstoon/index.html" target="_blank">Csstoon</a>
+                        <span class="code"> /> </span>
+                  </div>
                 </a>
-                </a>
-              </div>
-          
-              <div class="box">
-                <a href="drona/index.html">
+              </a>
+            </div>
+
+            <div class="box">
+              <a href="drona/index.html">
                 <img src="image/2.png" />
                 <a href="drona/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="drona/index.html" target="_blank">First page of clone of DrOnA</a> 
-                  <span class="code"> /> </span>
-                </div>
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="drona/index.html" target="_blank">First page of clone of DrOnA</a>
+                        <span class="code"> /> </span>
+                  </div>
                 </a>
-                </a>
-              </div>
+              </a>
+            </div>
 
-              <div class="box">
-                <a href="teacherdaycard/index.html  ">
+            <div class="box">
+              <a href="teacherdaycard/index.html  ">
                 <img src="image/card.jpg" />
                 <a href="teacherdaycard/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="teacherdaycard/index.html" target="_blank">Teacher day card with HTML CSS</a> 
-                  <span class="code"> /> </span>
-                </div>
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="teacherdaycard/index.html" target="_blank">Teacher day card with HTML CSS</a>
+                        <span class="code"> /> </span>
+                  </div>
                 </a>
-                </a>
-              </div>
-              <div class="box">
-                <a href="doremon/index.html">
+              </a>
+            </div>
+            <div class="box">
+              <a href="doremon/index.html">
                 <img src="image/doremon2.jpg" />
                 <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="doremon/index.html" target="_blank">Doremon with css</a> 
-                  <span class="code"> /> </span>
+                  <span class="code">
+                    < </span>
+                      <a href="doremon/index.html" target="_blank">Doremon with css</a>
+                      <span class="code"> /> </span>
                 </div>
-                </a>
-                </div>
-                
-              <div class="box">
-                <a href="table/index.html">
+              </a>
+            </div>
+
+            <div class="box">
+              <a href="table/index.html">
                 <img src="image/htmltable.jpg" />
                 <a href="table/index.html">
-                <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="table/index.html" target="_blank">HTML Table</a> 
-                  <span class="code"> /> </span>
-                </div>
-                </a>
-                </a>
-              </div>
-                <div class="box">
-                  <a href="zamato/index.html">
-                  <img src="image/Screenshot (258).png" />
-                  <a href="zamato/index.html">
                   <div class="boxheading">
-                    <span class="code"> < </span>
-                    <a href="zamato/index.html" target="_blank">Clone of zamato</a> 
-                    <span class="code"> /> </span>
+                    <span class="code">
+                      < </span>
+                        <a href="table/index.html" target="_blank">HTML Table</a>
+                        <span class="code"> /> </span>
                   </div>
-                  </a>
-                  </a>
-                </div>
-              <div class="box">
-                <a href="flower/index.html">
+                </a>
+              </a>
+            </div>
+            <div class="box">
+              <a href="zamato/index.html">
+                <img src="image/Screenshot (258).png" />
+                <a href="zamato/index.html">
+                  <div class="boxheading">
+                    <span class="code">
+                      < </span>
+                        <a href="zamato/index.html" target="_blank">Clone of zamato</a>
+                        <span class="code"> /> </span>
+                  </div>
+                </a>
+              </a>
+            </div>
+            <div class="box">
+              <a href="flower/index.html">
                 <img src="image/flower.jpg" />
                 <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="flower/index.html" target="_blank">Flower with css</a> 
-                  <span class="code"> /> </span>
+                  <span class="code">
+                    < </span>
+                      <a href="flower/index.html" target="_blank">Flower with css</a>
+                      <span class="code"> /> </span>
                 </div>
-                </a>
+              </a>
+            </div>
+            <div class="box">
+              <a href="car/index.html">
+                <img src="image/Screenshot (248).png" />
+                <div class="boxheading">
+                  <span class="code">
+                    < </span>
+                      <a href="car/index.html" target="_blank">Car with css</a>
+                      <span class="code"> /> </span>
                 </div>
-                <div class="box">
-                  <a href="car/index.html">
-                  <img src="image/Screenshot (248).png" />
-                  <div class="boxheading">
-                    <span class="code"> < </span>
-                    <a href="car/index.html" target="_blank">Car with css</a> 
-                    <span class="code"> /> </span>
-                  </div>
-                  </a>
-                </div>
-                             
-              <div class="box">
-                <a href="cricket/index.html">
+              </a>
+            </div>
+
+            <div class="box">
+              <a href="cricket/index.html">
                 <img src="image/img2.png" />
                 <div class="boxheading">
-                  <span class="code"> < </span>
-                  <a href="cricket/index.html" target="_blank">Cricketshala.com clone</a> 
-                  <span class="code"> /> </span>
+                  <span class="code">
+                    < </span>
+                      <a href="cricket/index.html" target="_blank">Cricketshala.com clone</a>
+                      <span class="code"> /> </span>
                 </div>
-                </a>
-              </div>
-                <div class="box">
-                  <a href="form/index.html">
-                  <img src="image/image1.png" />
-                    <div class="boxheading">
-                    <span class="code"> < </span>
-                    <a href="form/index.html" target="_blank">freeCodecamp Suvery form</a>
-                    <span class="code"> /> </span>
-                    </div>
-                  </a>
-                  </div>
-                <div class="box">
-                  <a href="http://dynamicnata.blogspot.com/">
-                  <img src="image/Screenshot (225).png" />
-                  <div class="boxheading">
-                    <span class="code"> < </span>
-                    <a href="http://dynamicnata.blogspot.com/" target="_blank">My Blog</a>
-                    <span class="code"> /> </span>
-                  </div>
-                    </a>
-                  </div>
+              </a>
+            </div>
+            <div class="box">
+              <a href="form/index.html">
+                <img src="image/image1.png" />
+                <div class="boxheading">
+                  <span class="code">
+                    < </span>
+                      <a href="form/index.html" target="_blank">freeCodecamp Suvery form</a>
+                      <span class="code"> /> </span>
+                </div>
+              </a>
+            </div>
+            <div class="box">
+              <a href="http://dynamicnata.blogspot.com/">
+                <img src="image/Screenshot (225).png" />
+                <div class="boxheading">
+                  <span class="code">
+                    < </span>
+                      <a href="http://dynamicnata.blogspot.com/" target="_blank">My Blog</a>
+                      <span class="code"> /> </span>
+                </div>
+              </a>
+            </div>
             <!-- <div class="showall">
               <button value="Show all"><a href="showall/index.html">Show all <span>></span></a></button>
               <br />
@@ -227,39 +253,43 @@
             </div> -->
           </div>
         </div>
-      </section>
-      <section>
-        <div id="L4" class="last">
-          <div class="written">
-            <br />
-            Let's work together...
-            <br/>
-            <br/>
-          </div>
-          <!-- <div class="tag">
+    </section>
+    <section>
+      <div id="L4" class="last">
+        <div class="written">
+          <br />
+          Let's work together...
+          <br />
+          <br />
+        </div>
+        <!-- <div class="tag">
             <em>How do you take your coffee?</em>
           </div>
           <br />
           <br /> -->
-          <div class="socialmedia">
-            <div>
-             
-              <a class="socialicon"><a class="ongoing" href="https://github.com/wwwnaitik" target="_blank"><i class="fa fa-github"></i>github</a></a>
-              <a class="socialicon"><a class="ongoing" href="https://www.instagram.com/naitikshekhawat/" target="_blank"><i class="fa fa-instagram"></i>instagram</a></a>
-              <a class="socialicon"><a class="ongoing" href="https://codepen.io/wwwnaitik" target="_blank"><i class="fa fa-codepen"></i>codepen</a></a>
-            </div>
+        <div class="socialmedia">
+          <div>
+
+            <a class="socialicon"><a class="ongoing" href="https://github.com/wwwnaitik" target="_blank"><i
+                  class="fa fa-github"></i>github</a></a>
+            <a class="socialicon"><a class="ongoing" href="https://www.instagram.com/naitikshekhawat/"
+                target="_blank"><i class="fa fa-instagram"></i>instagram</a></a>
+            <a class="socialicon"><a class="ongoing" href="https://codepen.io/wwwnaitik" target="_blank"><i
+                  class="fa fa-codepen"></i>codepen</a></a>
           </div>
-          <br />
-          <br />
-          <br />
-          <div class="line">
-            <hr />
-          </div>
-          <br />
-            <div class="lastsentence">© Created from freeCodeCamp</div>
-            <br/> 
         </div>
-      </section>
-    </div>
-  </body>
+        <br />
+        <br />
+        <br />
+        <div class="line">
+          <hr />
+        </div>
+        <br />
+        <div class="lastsentence">© Created from freeCodeCamp</div>
+        <br />
+      </div>
+    </section>
+  </div>
+</body>
+
 </html>
