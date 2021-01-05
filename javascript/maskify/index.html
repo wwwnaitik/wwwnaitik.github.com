@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maskify the number</title>
+  </head>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      var startCount = 0;
+      var Enternumber = [];
+
+      document.getElementById("numbers").addEventListener("click", (event) => {
+        startCount++;
+        var dataValue = event.target.getAttribute("value");
+
+        Enternumber.push(dataValue);
+        if (startCount <= 16) {
+          if (startCount <= 12) {
+            document.getElementById("screen").innerHTML += "#";
+          } else {
+            document.getElementById("screen").innerHTML += dataValue;
+          }
+        }
+      });
+    });
+  </script>
+  <style>
+    body {
+      text-align: center;
+    }
+    #container {
+      margin-left: 42%;
+      margin-top: 12%;
+    }
+    #screen {
+      background-color: #853169;
+      width: 347px;
+      height: 180px;
+      color: white;
+      font-size: larger;
+      margin-left: -50px;
+      border-radius: 20px;
+    }
+    #numbers {
+      width: 250px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10%;
+    }
+    #number {
+      display: block;
+      border: 1px solid black;
+      width: 80px;
+      height: 40px;
+      background-color: purple;
+      font-size: larger;
+      text-align: center;
+      padding-top: 20px;
+      color: white;
+    }
+    #Print {
+      font-size: larger;
+      color: black;
+      margin: 20px;
+    }
+    .rupess {
+      font-size: 20px;
+      position: absolute;
+      top: 10%;
+      left: 48%;
+    }
+    .visa {
+      padding-bottom: 13%;
+      font-size: 30px;
+      margin-left: 70%;
+    }
+  </style>
+  <body>
+    <div class="rupess">R 768,00</div>
+
+    <div id="container">
+      <div id="screen"><div class="visa">VISA</div></div>
+      <div id="numbers">
+        <div id="number" value="1">1</div>
+        <div id="number" value="2">2</div>
+        <div id="number" value="3">3</div>
+        <div id="number" value="4">4</div>
+        <div id="number" value="5">5</div>
+        <div id="number" value="6">6</div>
+        <div id="number" value="7">7</div>
+        <div id="number" value="8">8</div>
+        <div id="number" value="9">9</div>
+        <div id="number" value="0" style="width: 245px">0</div>
+      </div>
+    </div>
+  </body>
+</html>

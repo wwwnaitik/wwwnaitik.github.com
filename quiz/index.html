@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMLQUIZ-1</title>
+  </head>
+
+  <body>
+    <p>Enter a value</p>
+    <input id="number" type="number" />
+    <button onclick="showTheAnswer()">Enter</button>
+    <div id="answer"></div>
+    <script>
+      var i;
+      function showTheAnswer() {
+        var numberWrittenAsInput = Number(
+          document.getElementById("number").value
+        );
+        if (numberWrittenAsInput > 0 && numberWrittenAsInput < 24656600) {
+          for (i = 1; i <= numberWrittenAsInput; i++) {
+            WriteTheAnswer(i);
+          }
+        } else {
+          alert("Enter value under 24656600");
+        }
+      }
+
+      function WriteTheAnswer(i) {
+        if (i % 3 == 0 && i % 5 == 0) {
+          document.write("</br>" + "fizzbuzz");
+        } else if (i % 3 == 0) {
+          document.write("</br>" + "fizz");
+        } else if (i % 5 == 0) {
+          document.write("</br>" + "buzz");
+        } else {
+          document.write("<br />" + i);
+        }
+      }
+    </script>
+  </body>
+</html>

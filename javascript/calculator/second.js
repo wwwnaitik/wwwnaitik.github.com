@@ -1,65 +1,82 @@
-document.addEventListener("DOMContentLoaded", function () {
-  /////////////////////////////////////////////variables//////////////////////////////////////////////////
-  var operators = "";
-  var num1 = "";
-  var num2 = "";
-  var answer;
-  var opratorWritten;
+document.addEventListener("DOMContentLoaded", () => {
+  let OneNumber = "";
+  let operator = "";
+  let allNumbers = [];
+  let allOprators = [];
 
-  /////////////////////////////////////////Printing the number //////////////////////////////////////////
-  document.getElementById("number").addEventListener("click", (event) => {
-    if (operators === "") {
-      num1 += event.target.getAttribute("value");
-      document.getElementById("write").innerHTML = num1;
-      // console.log("num1:" + num1);
-    } else {
-      num2 += event.target.getAttribute("value");
-      document.getElementById("write").innerHTML = num1 + operators + num2;
-      // console.log("num2:" + num2);
+  let questionElement = document.getElementById("write");
+  document.querySelector(".number").addEventListener("click", (e) => {
+    let valueOfBox = e.target.getAttribute("data-value");
+
+    OneNumber = `${OneNumber}${valueOfBox}`;
+
+    if (operator != "") allOprators.push(operator);
+    operator = "";
+    questionElement.innerHTML = questionElement.innerHTML + valueOfBox;
+  });
+
+  document.getElementById("operation").addEventListener("click", (e) => {
+    operator = e.target.getAttribute("data-value");
+    if (OneNumber != "") allNumbers.push(OneNumber);
+
+    questionElement.innerHTML = questionElement.innerHTML + operator;
+
+    OneNumber = "";
+  });   
+
+  document.getElementById("equal").addEventListener("click", (e) => {
+    if (OneNumber != "") {
+      allNumbers.push(OneNumber);
+      OneNumber = "";
+      operator = "";
     }
-  });
-  /////////////////////////////////////////////////printing the oprator////////////////////////////////////
-  document.getElementById("operation").addEventListener("click", (event) => {
-    operators = event.target.getAttribute("value");
-    opratorWritten = document.getElementById("write").innerHTML += operators;
-    console.log("operator:" + operators);
-  });
-  /////////////////////////////////////////////////equal the problem////////////////////////////////////////
-  document.getElementById("equal").addEventListener("click", (event) => {
-    switch (operators) {
+    let atTimeOprator = allOprators[0];
+    let answer = "";
+
+    switch (atTimeOprator) {
       case "+":
-        answer = plus();
+        answer = plus(allNumbers);
         break;
       case "-":
-        answer = minus();
+        answer = minus(allNumbers);
         break;
       case "*":
-        answer = multiply();
+        answer = multiply(allNumbers);
         break;
       case "/":
-        answer = divide();
+        answer = division(allNumbers);
         break;
     }
 
-    document.getElementById("write").innerHTML = answer;
-    function plus() {
-      console.log(num1, num2);
-      return Number(num1) + Number(num2);
-    }
-    function minus() {
-      return Number(num1) - Number(num2);
-    }
-    function multiply() {
-      return Number(num1) * Number(num2);
-    }
-    function divide() {
-      return Number(num1) / Number(num2);
-    }
+    questionElement.innerHTML = answer;
   });
-  ////////////////////////////////////////erasing all the number which are written//////////////////////////
-  document.getElementById("buttonClear").addEventListener("click", clear);
-  function clear() {
-    // document.getElementById("write").innerHTML = "";
-    //location.reload();
+
+  function plus(numbers) {
+    let total = numbers.reduce((accumulator, element) => {
+      return parseInt(accumulator) + parseInt(element);
+    });
+
+    return total;
+  }
+  function minus(numbers) {
+    let total = numbers.reduce((accumulator, element) => {
+      return parseInt(accumulator) - parseInt(element);
+    });
+
+    return total;
+  }
+  function multiply(numbers) {
+    let total = numbers.reduce((accumulator, element) => {
+      return parseInt(accumulator) * parseInt(element);
+    });
+
+    return total;
+  }
+  function division(numbers) {
+    let total = numbers.reduce((accumulator, element) => {
+      return parseInt(accumulator) / parseInt(element);
+    });
+
+    return total;
   }
 });

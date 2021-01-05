@@ -12,7 +12,7 @@
 4c - Block scope
 
 
-5. Event propagation  - Yash singh
+5. Event propagation    
 5a. Event bubbling
 5b. Event capturing
 5c. Event target/ event current target
@@ -23,7 +23,7 @@
 
 --- filter, reduce, map, forEach
 
-7. Coercion -> 
+
 
 let hasStates = 
 

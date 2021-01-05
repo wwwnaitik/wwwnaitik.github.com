@@ -1,0 +1,479 @@
+Arrays meathods
+1) pop meathod is used to remove the last value or element from an array.
+ We use it like that
+
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demo2").innerHTML = fruits;
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+2) push meathod is use to add an element in an array.
+We use it like that 
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.push("Kiwi");
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+3) The shift() method removes the first array element and "shifts" all other elements to a lower index.
+We use it like that 
+
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+  <script>
+  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+  document.getElementById("demo1").innerHTML = fruits;
+  fruits.shift();
+  document.getElementById("demo2").innerHTML = fruits;
+  </script>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+4) The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+5)The length property provides an easy way to append a new element to an array:
+we us that 
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits[fruits.length] = "Kiwi";
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+6)Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete:
+we use that
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML =
+"The first fruit is: " + fruits[0];
+delete fruits[0];
+document.getElementById("demo2").innerHTML =
+"The first fruit is: " + fruits[0];
+.///////////////////////////////////////////////////////
+7)The splice() method can be used to add new items to an array:
+We can use 
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+  
+  fruits[fruits.length] = "Kiwi";
+  document.getElementById("demo").innerHTML = fruits;
+
+</script>
+///////////////////////////////////////////////////////////////////////////////////////
+8) The concat() method creates a new array by merging (concatenating) existing arrays:
+We use it 
+
+<p id="demo"></p>
+
+<script>
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
+
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+///////////////.//////////////////////////////////////////////////////////////////
+9)The slice() method slices out a piece of an array into a new array.
+
+We use that
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1);
+document.getElementById("demo").innerHTML = fruits + "<br><br>" + citrus;
+</script>
+________________________________________________________________________________________________________________________________
+Number meathods
+
+1)  The toString() method returns a number as a string.
+
+<p id="demo"></p>
+
+<script>
+var x = 123;
+document.getElementById("demo").innerHTML =
+  x.toString() + "<br>" +
+   (123).toString() + "<br>" +
+   (100 + 23).toString();
+</script>
+
+________________________________________________________________________________________________________________________________
+
+2) toExponential() returns a string, with a number rounded and written using exponential notation.
+
+<p id="demo"></p>
+
+<script>
+var x = 9.656;
+document.getElementById("demo").innerHTML =
+  x.toExponential() + "<br>" + 
+  x.toExponential(2) + "<br>" + 
+  x.toExponential(4) + "<br>" + 
+  x.toExponential(6);
+</script>
+________________________________________________________________________________________________________________________________
+3) toFixed() returns a string, with the number written with a specified number of decimals:
+
+<p id="demo"></p>
+
+<script>
+var x = 9.656;
+document.getElementById("demo").innerHTML =
+  x.toFixed(0) + "<br>" +
+  x.toFixed(2) + "<br>" +
+  x.toFixed(4) + "<br>" +
+  x.toFixed(6);
+</script>
+
+________________________________________________________________________________________________________________________________
+4) toPrecision() returns a string, with a number written with a specified length:
+
+<p id="demo"></p>
+
+<script>
+var x = 9.656;
+document.getElementById("demo").innerHTML = 
+  x.toPrecision() + "<br>" +
+  x.toPrecision(2) + "<br>" +
+  x.toPrecision(4) + "<br>" +
+  x.toPrecision(6);  
+</script>
+________________________________________________________________________________________________________________________________
+5) valueOf() returns a number as a number.
+
+<p id="demo"></p>
+
+<script>
+var x = 123;
+
+document.getElementById("demo").innerHTML = 
+  x.valueOf() + "<br>" +
+  (123).valueOf() + "<br>" +
+  (100 + 23).valueOf();
+</script>
+________________________________________________________________________________________________________________________________
+6) Number() can be used to convert JavaScript variables to numbers:
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  Number(true) + "<br>" +
+  Number(false) + "<br>" +
+  Number("10") + "<br>" + 
+  Number("  10") + "<br>" +
+  Number("10  ") + "<br>" +
+  Number(" 10  ") + "<br>" +
+  Number("10.33") + "<br>" + 
+  Number("10,33") + "<br>" +
+  Number("10 33") + "<br>" +
+  Number("John");
+</script>
+
+________________________________________________________________________________________________________________________________
+7) ParseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned:
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  parseInt("10") + "<br>" +
+  parseInt("10.33") + "<br>" +
+  parseInt("10 6") + "<br>" +  
+  parseInt("10 years") + "<br>" +  
+  parseInt("years 10");  
+</script>
+
+________________________________________________________________________________________________________________________________
+8)parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned:
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  parseFloat("10") + "<br>" +
+  parseFloat("10.33") + "<br>" +
+  parseFloat("10 6") + "<br>" +  
+  parseFloat("10 years") + "<br>" +
+  parseFloat("years 10");    
+</script>
+
+________________________________________________________________________________________________________________________________
+
+9) MAX_VALUE returns the largest possible number in JavaScript.
+
+<p id="demo"></p>
+
+<script>
+var x = Number.MAX_VALUE;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+________________________________________________________________________________________________________________________________
+10) MIN_VALUE returns the lowest possible number in JavaScript.
+
+<p id="demo"></p>
+
+<script>
+var x = Number.MIN_VALUE;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+________________________________________________________________________________________________________________________________
+11)POSITIVE_INFINITY is returned on overflow:
+
+<p id="demo"></p>
+
+<script>
+var x = 1 / 0;
+document.getElementById("demo").innerHTML = x;
+</script>
+________________________________________________________________________________________________________________________________
+12) NEGATIVE_INFINITY is returned on overflow:
+
+<p id="demo"></p>
+
+<script>
+var x = -1/0;
+document.getElementById("demo").innerHTML = x;
+</script>
+________________________________________________________________________________________________________________________________
+13)NaN is a JavaScript reserved word indicating that a number is not a legal number. 
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Number.NaN;
+</script>
+________________________________________________________________________________________________________________________________
+--------------------------------------------------------------------------------------------------------------------------------
+String meathod
+________________________________________________________________________________________________________________________________
+1) The length property returns the length of a string:
+
+<p id="demo"></p>
+
+<script>
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+document.getElementById("demo").innerHTML = sln;
+</script>
+________________________________________________________________________________________________________________________________
+2)The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+<p id="demo"></p>
+
+<script>
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
+________________________________________________________________________________________________________________________________
+
+3) The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:\
+
+<p id="demo"></p>
+
+<script>
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
+________________________________________________________________________________________________________________________________
+
+4) The search() method searches a string for a specified value and returns the position of the match:
+
+<p id="demo"></p>
+
+<script>
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
+________________________________________________________________________________________________________________________________
+
+5) slice() extracts a part of a string and returns the extracted part in a new string.
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7,13);
+document.getElementById("demo").innerHTML = res; 
+</script>
+
+________________________________________________________________________________________________________________________________
+.......................................................................
+6) substring() is similar to slice().
+The difference is that substring() cannot accept negative indexes.
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7,13);
+document.getElementById("demo").innerHTML = res;
+</script>
+
+
+________________________________________________________________________________________________________________________________
+.................................................
+7)substr() is similar to slice().
+The difference is that the second parameter specifies the length of the extracted part.
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7,6);
+document.getElementById("demo").innerHTML = res;
+</script>
+________________________________________________________________________________________________________________________________
+
+8)The replace() method replaces a specified value with another value in a string:
+
+<p id="demo">Please visit Microsoft!</p>
+
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var txt = str.replace("Microsoft","W3Schools");
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+________________________________________________________________________________________________________________________________
+..........................................................
+9) A string is converted to upper case with toUpperCase():
+
+<p id="demo">Hello World!</p>
+
+<script>
+function myFunction() {
+  var text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML = text.toUpperCase();
+}
+</script>
+________________________________________________________________________________________________________________________________
+................................................................  
+10)A string is converted to lower case with toLowerCase():
+
+<p id="demo">Hello World!</p>
+
+<script>
+function myFunction() {
+  var text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML = text.toLowerCase();
+}
+</script>
+
+________________________________________________________________________________________________________________________________
+
+11)concat() joins two or more strings:
+
+concat() joins two
+
+ <p id="demo"></p>
+
+<script>
+var text1 = "Hello";
+var text2 = "World!";
+var text3 = text1.concat(" ",text2);
+document.getElementById("demo").innerHTML = text3;
+</script>
+
+________________________________________________________________________________________________________________________________
+
+12) The trim() method removes whitespace from both sides of a string:
+
+<p><strong>Note:</strong> The trim() method is not supported in Internet Explorer 8 and earlier versions.</p>
+
+<script>
+function myFunction() {
+  var str = "     Hello World!     ";
+  alert(str.trim());
+}
+</script>
+
+________________________________________________________________________________________________________________________________
+
+13)  Added two String methods: padStart and padEnd to support padding at the beginning and at the end of a string.
+
+<p id="demo"></p>
+
+<script>
+let str = "5";
+str = str.padStart(4,0);
+document.getElementById("demo").innerHTML = str;
+</script>
+
+________________________________________________________________________________________________________________________________
+ 
+ 14) The charAt() method returns the character at a specified index (position) in a string:
+
+ <p id="demo"></p>
+
+<script>
+var str = "HELLO WORLD";
+document.getElementById("demo").innerHTML = str.charAt(0);
+</script>
+
+________________________________________________________________________________________________________________________________
+
+15) The charCodeAt() method returns the unicode of the character at a specified index in a string:
+
+<p id="demo"></p>
+
+<script>
+var str = "HELLO WORLD";
+document.getElementById("demo").innerHTML = str.charCodeAt(0);
+</script>
+
+
+________________________________________________________________________________________________________________________________
+
+16) A string can be converted to an array with the split() method:
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "a,b,c,d,e,f";
+  var arr = str.split(",");
+  document.getElementById("demo").innerHTML = arr[0];
+}
+</script>
+________________________________________________________________________________________________________________________________
