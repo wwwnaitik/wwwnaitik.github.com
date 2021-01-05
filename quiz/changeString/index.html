@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Write the string to reverse it</p>
+    <input id="number" type="text" />
+    <button onclick="change()">Enter</button>
+    <div id="answer"></div>
+
+    <script>
+      function change() {
+        var takeInputFromBox = document.getElementById("number").value;
+
+        var changeIntoArray = takeInputFromBox.split("");
+        // console.log(changeIntoArray);
+        var reverseTheArray = changeIntoArray.reverse();
+        console.log(reverseTheArray);
+        var reverseTheString = reverseTheArray.join("");
+
+        document.getElementById("answer").innerHTML += reverseTheString;
+      }
+    </script>
+  </body>
+</html>
