@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Write the word</p>
+    <input id="number" type="text" />
+    <button onclick="oftenCharacter()">Enter</button>
+    <div id="answer"></div>
+    <script>
+      function oftenCharacter() {
+        var countCharacterArray = {};
+        var takeInputFromBox = document.getElementById("number").value;
+
+        var convertedStringToArray = takeInputFromBox.split("");
+
+        // var answer = convertedStringToArray.map(getMaxOccuredChar);
+
+        // function getMaxOccuredChar(item) {
+        //   let objkey = item;
+        //   if (objkey in countCharacterArray) {
+        //     console.log(
+        //       objkey + " exist in object" + countCharacterArray[objkey]
+        //     );
+
+        //     countCharacterArray[item] = countCharacterArray[objkey] + 1;
+        //   } else {
+        //     countCharacterArray[item] = 1;
+        //   }
+
+        //   return item;
+        // }
+
+        for (i = 0; i < convertedStringToArray.length; i++) {
+          let objkey = convertedStringToArray[i];
+
+          if (objkey in countCharacterArray) {
+            console.log(
+              objkey + " exist in object" + countCharacterArray[objkey]
+            );
+
+            countCharacterArray[convertedStringToArray[i]] =
+              countCharacterArray[objkey] + 1;
+          } else {
+            countCharacterArray[convertedStringToArray[i]] = 1;
+          }
+
+          console.log(countCharacterArray);
+
+          var sortable = [];
+          for (var countedArray in countCharacterArray) {
+            sortable.push([countedArray, countCharacterArray[countedArray]]);
+          }
+
+          sortable.sort(function (a, b) {
+            return a[1] - b[1];
+          });
+
+          let result = sortable[sortable.length - 1];
+
+          result.join("");
+
+          console.log(sortable);
+          document.getElementById("answer").innerHTML = "";
+          document.getElementById("answer").innerHTML +=
+            "<h3>The character maximum time occured is  " + result + "</h3>";
+        }
+      }
+    </script>
+  </body>
+</html>
