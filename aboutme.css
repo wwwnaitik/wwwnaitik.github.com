@@ -11,6 +11,7 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: "Lato", sans-serif;
+  box-shadow: 2px 3.5px 7px #9999;
 }
 .logo {
   font-size: 26px;
@@ -27,9 +28,12 @@ body {
   color: #010101;
   font-size: 15px;
   padding: 13px 20px;
+  transition: 0.3s ease-out;
 }
 .nav a:hover {
-  color: #089afb;
+  color: #fff;
+  background-color: #089afb;
+  border-radius: 50%;
 }
 .button {
   width: 131px;
@@ -37,19 +41,25 @@ body {
   background-image: linear-gradient(to right, #3b395f, #131830);
   border: none;
   letter-spacing: 1px;
-  padding: 7px 22px;
+  padding: 13px 22px;
   display: inline-block;
   text-align: center;
   font-size: 14px;
   border-radius: 3px;
   margin: 8%;
   font-weight: bold;
+  height: 23px;
 }
 .button a {
   color: white;
   text-decoration: none;
 }
-
+.nametagop {
+  color: black;
+  font-size: 27px;
+  margin-top: 6px;
+  margin-left: -329px;
+}
 .headline {
   font-size: 2.25rem;
   color: #4d4d4d;
@@ -70,7 +80,7 @@ body {
   border: 3px solid #4ac2e2;
   width: 311px;
   float: right;
-  margin-top: -203px;
+  margin-top: -160px;
   margin-right: 100px;
 }
 .image span {
@@ -83,7 +93,7 @@ body {
   left: 74%;
   opacity: 0.6;
   position: absolute;
-  top: 140px;
+  top: 183px;
   transform: scale(0);
   width: 14%;
   z-index: -1;
@@ -158,16 +168,6 @@ body {
   color: #666;
   padding-left: 130px;
   padding-top: 15px;
-}
-#forwhole {
-  margin-right: 50px;
-}
-.image-all {
-  display: flex;
-  justify-content: center;
-}
-#for-whole img {
-  margin-top: 20px;
 }
 
 @media (max-width: 700px) {

@@ -45,9 +45,11 @@ nav a {
   height: 10%;
   font-family: "Roboto", sans-serif;
 }
+
 nav a:hover {
   background-color: #627194;
 }
+
 .flex-hero {
   background-image: linear-gradient(to left, #000, #1a1110, #3b3c36);
   height: 700px;
